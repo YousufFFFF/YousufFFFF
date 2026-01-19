@@ -3,7 +3,6 @@
 - 🎓 TY B.E. in Artificial Intelligence & Data Science (AI & DS)
 - 🧑‍💻 Interested in data engineering, dashboards & open-source
 - 📊 Currently contributing to [Apache Superset](https://github.com/apache/superset)
-- 🎯 Goal: GSoC & long-term open-source contributor
 
 ## 🔧 Technologies & Tools
 
