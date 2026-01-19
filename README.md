@@ -13,13 +13,6 @@
 - **Databases:** PostgreSQL, MySQL, SQLite
 - **Other:** Git, Docker, Linux
 
-## 🏆 Open Source Contributions
-
-- [Apache Superset – PR #36214](https://github.com/apache/superset/pull/36214): Fixed timeseries x-axis natural sorting & improved ECharts scatter behavior.
-- [Apache Superset – PR #36264](https://github.com/apache/superset/pull/36264): Documentation update for duplicate alerts & reports deliveries.
-
-*(More coming soon…)*
-
 ## 📌 Featured Projects
 
 - **Superset Experiments** – My playground for exploring chart plugins, ECharts configs, and dashboards.
