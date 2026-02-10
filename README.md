@@ -1,43 +1,53 @@
-# Hi, I'm Yousuf 👋
+<h1 align="left">Hey 👋 What's up?</h1>
 
-- 🎓 TY B.E. in Artificial Intelligence & Data Science (AI & DS)
-- 🧑‍💻 Interested in data engineering, dashboards & open-source
-- 📊 Currently contributing to [Apache Superset](https://github.com/apache/superset)
+###
 
-## 🔧 Technologies & Tools
+<p align="left">My name is Yousuf Ansari and I'm a AI & Data Science Engineer</p>
 
-- **Languages:** Python, TypeScript, JavaScript, SQL
-- **Data / ML:** Pandas, NumPy, scikit-learn, Jupyter
-- **Web / Frontend:** React, ECharts (via Apache Superset)
-- **Databases:** PostgreSQL, MySQL, SQLite
-- **Other:** Git, Docker, Linux
+###
 
-## 📌 Featured Projects
+<h2 align="left">About me</h2>
 
-- **Superset Experiments** – My playground for exploring chart plugins, ECharts configs, and dashboards.
-- 🩸 Blood Bank Management System:
+###
 
-A full-stack project designed to manage blood donations, donor data, blood inventory, and emergency hospital requests.
+<p align="left">✨ Creating bugs since ...<br>📚 I'm currently learning ...<br>🎯 Goals: ...<br>🎲 Fun fact: ...</p>
 
-⭐ Highlights
+###
 
--Donor registration & database
--Search by blood group & location
--Blood inventory management
--Emergency request handling
--Admin dashboard
--Clean UI
+<h2 align="left">I code with</h2>
 
-🔧 Tech Stack
+###
 
--Frontend: HTML/CSS/JS or React (your stack)
--Backend: Python (Flask/Django) / Node.js
--Database: MySQL / PostgreSQL
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" height="40" alt="storybook logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg" height="40" alt="nestjs logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" height="40" alt="jest logo"  />
+</div>
 
-🔗 Project Repository:
-  https://github.com/YousufFFFF/Blood-Donation-bank-Management-System-main
+###
 
-## 📫 Contact
+<div align="center" style="width: 100%">
+  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/0">
+    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/0" alt="Medium post 1"  />
+  </a>
+  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/1">
+    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/1" alt="Medium post 2"  />
+  </a>
+  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/2">
+    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/2" alt="Medium post 3"  />
+  </a>
+</div>
 
-- LinkedIn: https://www.linkedin.com/in/mohammed-yousuf-ansari-935388342?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
-- Email: ansariyousuf513@gmail.com
+###
