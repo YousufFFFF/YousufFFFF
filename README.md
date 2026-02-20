@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Yousuf Ansari</h1>
-<h3 align="center">A passionate Full Stack developer and Data Analyst from India</h3>
+<h3 align="center">A passionate AI & DS Engineer and Data Analyst from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yousufffff&label=Profile%20views&color=0e75b6&style=flat" alt="yousufffff" /> </p>
 
