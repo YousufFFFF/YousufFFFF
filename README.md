@@ -11,8 +11,6 @@ I'm a final-year B.E. student (AI & DS) currently shipping real features to prod
 **[MSOC 2026 @ Mifos Initiative](https://github.com/openMF/web-app)** — Software Mentor (May–Aug 2026)  
 Building the loan product creation landing page for the Mifos X Angular web app — a platform used by microfinance institutions in 40+ countries. Work includes a 7-step Angular Material stepper, hidden defaults payload logic, and a human-readable loan review UX. Prior contributions: WEB-38 (View Guarantor bug), WEB-480 (loan rescheduling silent failure fix).
 
-**[Apache Superset — PR #37712](https://github.com/apache/superset/pull/37712)**  
-Added X-Axis sort-by-dimension support for multi-series ECharts bar charts. The change spans `controlPanel.ts` and `transformProps.ts` in the `plugin-chart-echarts` package, resolving a TypeScript type mismatch around `SortSeriesType` that caused incorrect chart rendering for dimensional datasets.
 
 ---
 
