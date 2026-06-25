@@ -8,8 +8,8 @@ Active contributor to Apache Superset (73.5K ⭐) and Mifos X Web App (fintech, 
 
 ### What I'm shipping right now
 
-**[MSOC 2026 @ Mifos Initiative](https://github.com/openMF/web-app)** — Software Mentor *(May – Aug 2026)*  
-Building the loan product creation landing page for the Mifos X Angular web app — microfinance platform used in 40+ countries. 7-step Angular Material stepper, hidden-defaults payload logic, human-readable review UX. 13 PRs merged into the codebase since February 2026.
+**[MSOC 2026 @ Mifos Initiative](https://github.com/openMF/web-app)** — Software Mentor *(May – Aug 2026)* · **13 merged PRs**  
+Building the loan product creation landing page for the Mifos X Angular web app — microfinance platform used in 40+ countries. 7-step Angular Material stepper, hidden-defaults payload logic, human-readable review UX.
 
 **[Apache Superset](https://github.com/apache/superset)** — Contributor *(Nov 2025 – present)*  
 Working on ECharts and deck.gl plugin internals. 4 PRs merged including a WebGL freeze fix in the contour layer and a scroll-legend fix for horizontal chart layouts. Contributions tagged `v6.0` and `viz:charts:echarts`.
