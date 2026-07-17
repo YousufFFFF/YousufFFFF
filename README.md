@@ -1,7 +1,7 @@
 <!-- ═══════════════════════ HEADER ═══════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=gradient&customColorList=6,11,20&text=Yousuf%20Ansari&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20Data%20Science%20%C2%B7%20Open%20Source%20Contributor%20%C2%B7%20Pune,%20India&descSize=17&descAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=gradient&customColorList=6,11,20&text=Yousuf%20Ansari&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%26amp%3B%20Data%20Science%20%C2%B7%20Open%20Source%20Contributor%20%C2%B7%20Pune,%20India&descSize=17&descAlignY=58" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=MSOC+2026+Intern+%40+Mifos+%E2%80%94+UI+Product+Templates;Apache+Superset+Contributor+%E2%80%94+ECharts+%26+deck.gl;19+merged+PRs+in+production+codebases;Data+engineering+%C2%B7+Dashboards+%C2%B7+ML" alt="Typing animation"/>
 
