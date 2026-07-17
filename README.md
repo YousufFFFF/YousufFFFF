@@ -3,7 +3,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=gradient&customColorList=6,11,20&text=Yousuf%20Ansari&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20Data%20Science%20%C2%B7%20Open%20Source%20Contributor%20%C2%B7%20Pune,%20India&descSize=17&descAlignY=58" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=Apache+Superset+Contributor+%E2%80%94+ECharts+%26+deck.gl;MSOC+2026+Intern+%40+Mifos+%E2%80%94+UI+Product+Templates;19+merged+PRs+in+production+codebases;Data+engineering+%C2%B7+Dashboards+%C2%B7+ML" alt="Typing animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=MSOC+2026+Intern+%40+Mifos+%E2%80%94+UI+Product+Templates;Apache+Superset+Contributor+%E2%80%94+ECharts+%26+deck.gl;19+merged+PRs+in+production+codebases;Data+engineering+%C2%B7+Dashboards+%C2%B7+ML" alt="Typing animation"/>
 
 <br/>
 
@@ -25,10 +25,9 @@
 
 | 🏆 | What | Proof |
 |:--:|:--|:--|
+| 🎓 | **MSOC 2026 Intern** @ Mifos Initiative — building the **UI Product Templates** project for a fintech platform serving **40+ countries** | [Merged PRs ↓](#-mifos-x-web-app--merged-prs) |
 | 🔥 | **19 merged PRs** across two major open-source codebases | [All my PRs](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
 | 📊 | **Apache Superset** (73.5K ★) — fixes in ECharts & deck.gl rendering internals, shipped in `v6.0` | [Merged PRs ↓](#-apache-superset--merged-prs) |
-| 🏦 | **Mifos X** — fintech platform serving microfinance institutions in **40+ countries** | [Merged PRs ↓](#-mifos-x-web-app--merged-prs) |
-| 🎓 | **MSOC 2026 Intern** @ Mifos Initiative — building the **UI Product Templates** project | [openMF/web-app](https://github.com/openMF/web-app) |
 | 💼 | **Data Analyst @ Inspacco** — 6 months of production dashboards | [Details ↓](#-industry-experience) |
 
 </div>
@@ -51,15 +50,6 @@ Building the **loan product creation experience** for the Mifos X Angular web ap
 Working inside the **ECharts and deck.gl plugin internals** of the world's leading open-source BI platform. Contributions tagged `v6.0` and `viz:charts:echarts` — including a **WebGL freeze fix** in the contour layer.
 
 ---
-
-## 📊 Apache Superset — Merged PRs
-
-| PR | What it fixed | Size | Merged |
-|:--|:--|:--:|:--|
-| [#37244](https://github.com/apache/superset/pull/37244) | 🧊 **deck.gl contour — WebGL freeze:** prevented GPU hang by clamping and auto-scaling `cellSize` on invalid input | `L` | Jan 2026 |
-| [#37217](https://github.com/apache/superset/pull/37217) | 👯 **Mixed timeseries — duplicate legends:** fixed dedup bug doubling entries in multi-series legends | `S` | Jan 2026 |
-| [#36306](https://github.com/apache/superset/pull/36306) | 📜 **ECharts horizontal layout:** switched to scroll legend to stop label collisions | `M` | Dec 2025 |
-| [#36264](https://github.com/apache/superset/pull/36264) | 📝 **Docs — alerts & reports:** clarified duplicate report delivery behavior | `XS` | Nov 2025 |
 
 ## 🏦 Mifos X Web App — Merged PRs
 
@@ -89,6 +79,15 @@ Working inside the **ECharts and deck.gl plugin internals** of the world's leadi
 | [#3234](https://github.com/openMF/web-app/pull/3234) | **WEB-628:** Standardize password min-length validation and error handling | Feb 2026 |
 
 </details>
+
+## 📊 Apache Superset — Merged PRs
+
+| PR | What it fixed | Size | Merged |
+|:--|:--|:--:|:--|
+| [#37244](https://github.com/apache/superset/pull/37244) | 🧊 **deck.gl contour — WebGL freeze:** prevented GPU hang by clamping and auto-scaling `cellSize` on invalid input | `L` | Jan 2026 |
+| [#37217](https://github.com/apache/superset/pull/37217) | 👯 **Mixed timeseries — duplicate legends:** fixed dedup bug doubling entries in multi-series legends | `S` | Jan 2026 |
+| [#36306](https://github.com/apache/superset/pull/36306) | 📜 **ECharts horizontal layout:** switched to scroll legend to stop label collisions | `M` | Dec 2025 |
+| [#36264](https://github.com/apache/superset/pull/36264) | 📝 **Docs — alerts & reports:** clarified duplicate report delivery behavior | `XS` | Nov 2025 |
 
 ---
 
