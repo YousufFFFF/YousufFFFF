@@ -124,8 +124,8 @@ Operational dashboards for facility-management clients — multi-client service 
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=YousufFFFF&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7c6cff&icon_color=00d4ff&count_private=true&include_all_commits=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YousufFFFF&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7c6cff&langs_count=8"/>
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YousufFFFF&theme=tokyonight"/>
+<img height="185" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=YousufFFFF&theme=tokyonight"/>
 
 <img src="https://streak-stats.demolab.com?user=YousufFFFF&theme=tokyonight&hide_border=true&background=0d1117&ring=7c6cff&fire=00d4ff&currStreakLabel=7c6cff"/>
 
