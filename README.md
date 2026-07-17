@@ -7,6 +7,7 @@
 
 <br/>
 
+<a href="https://yousufffff.github.io"><img src="https://img.shields.io/badge/Portfolio-yousufffff.github.io-7c6cff?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/mohammed-yousuf-ansari-935388342/"><img src="https://img.shields.io/badge/LinkedIn-Mohammed%20Yousuf%20Ansari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:ansariyousuf513@gmail.com"><img src="https://img.shields.io/badge/Email-ansariyousuf513%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Pune,%20India-🌏-2ea44f?style=for-the-badge"/>
@@ -139,6 +140,7 @@ Operational dashboards for facility-management clients — multi-client service 
 
 Open to **software developer internships & roles** — frontend, full-stack, and data-heavy products.
 
+<a href="https://yousufffff.github.io"><img src="https://img.shields.io/badge/🌐%20Portfolio-informational?style=for-the-badge&color=11111d"/></a>
 <a href="mailto:ansariyousuf513@gmail.com"><img src="https://img.shields.io/badge/📧%20ansariyousuf513@gmail.com-informational?style=for-the-badge&color=11111d"/></a>
 <a href="https://www.linkedin.com/in/mohammed-yousuf-ansari-935388342/"><img src="https://img.shields.io/badge/💼%20LinkedIn-informational?style=for-the-badge&color=11111d"/></a>
 
