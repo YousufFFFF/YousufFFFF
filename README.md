@@ -1,9 +1,9 @@
 <!-- ═══════════════════════ HEADER ═══════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=gradient&customColorList=6,11,20&text=Yousuf%20Ansari&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%26amp%3B%20Data%20Science%20%C2%B7%20Open%20Source%20Contributor%20%C2%B7%20Pune,%20India&descSize=17&descAlignY=58" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=gradient&customColorList=6,11,20&text=Yousuf%20Ansari&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%C2%B7%20Open%20Source%20Contributor%20%C2%B7%20Pune,%20India&descSize=17&descAlignY=58" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=MSOC+2026+Intern+%40+Mifos+%E2%80%94+UI+Product+Templates;Apache+Superset+Contributor+%E2%80%94+ECharts+%26+deck.gl;19+merged+PRs+in+production+codebases;Data+engineering+%C2%B7+Dashboards+%C2%B7+ML" alt="Typing animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=Software+Developer+%E2%80%94+MSOC+2026+Intern+%40+Mifos;Building+UI+Product+Templates+for+Mifos+X;Apache+Superset+Contributor+%E2%80%94+ECharts+%26+deck.gl;19+merged+PRs+in+production+codebases" alt="Typing animation"/>
 
 <br/>
 
@@ -28,7 +28,7 @@
 | 🎓 | **MSOC 2026 Intern** @ Mifos Initiative — building the **UI Product Templates** project for a fintech platform serving **40+ countries** | [Merged PRs ↓](#-mifos-x-web-app--merged-prs) |
 | 🔥 | **19 merged PRs** across two major open-source codebases | [All my PRs](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
 | 📊 | **Apache Superset** (73.5K ★) — fixes in ECharts & deck.gl rendering internals, shipped in `v6.0` | [Merged PRs ↓](#-apache-superset--merged-prs) |
-| 💼 | **Data Analyst @ Inspacco** — 6 months of production dashboards | [Details ↓](#-industry-experience) |
+| 💼 | **Past: Data Analyst @ Inspacco** — 6 months of production dashboards, now fueling my software work | [Details ↓](#-industry-experience) |
 
 </div>
 
@@ -93,8 +93,8 @@ Working inside the **ECharts and deck.gl plugin internals** of the world's leadi
 
 ## 💼 Industry experience
 
-**Data Analyst @ Inspacco** <sub>*(6 months)*</sub>
-Operational dashboards for facility-management clients — multi-client service data, delivery tracking, and schema standardization across inconsistent data sources.
+**Data Analyst @ Inspacco** <sub>*(6 months · earlier experience)*</sub>
+Operational dashboards for facility-management clients — multi-client service data, delivery tracking, and schema standardization across inconsistent data sources. The data grounding I now bring to software development.
 
 ---
 
@@ -137,7 +137,7 @@ Operational dashboards for facility-management clients — multi-client service 
 
 ## 📬 Let's talk
 
-Open to **internships & collaborations** in data engineering, dashboards and ML.
+Open to **software developer internships & roles** — frontend, full-stack, and data-heavy products.
 
 <a href="mailto:ansariyousuf513@gmail.com"><img src="https://img.shields.io/badge/📧%20ansariyousuf513@gmail.com-informational?style=for-the-badge&color=11111d"/></a>
 <a href="https://www.linkedin.com/in/mohammed-yousuf-ansari-935388342/"><img src="https://img.shields.io/badge/💼%20LinkedIn-informational?style=for-the-badge&color=11111d"/></a>
