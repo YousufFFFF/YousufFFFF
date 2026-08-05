@@ -3,7 +3,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=gradient&customColorList=6,11,20&text=Yousuf%20Ansari&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%C2%B7%20Open%20Source%20Contributor%20%C2%B7%20Pune,%20India&descSize=17&descAlignY=58" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=Software+Developer+%E2%80%94+MSOC+2026+Intern+%40+Mifos;Building+UI+Product+Templates+for+Mifos+X;Apache+Superset+Contributor+%E2%80%94+ECharts+%26+deck.gl;19+merged+PRs+in+production+codebases" alt="Typing animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=Software+Developer+%E2%80%94+MSOC+2026+Intern+%40+Mifos;Building+UI+Product+Templates+for+Mifos+X;Apache+Superset+Contributor+%E2%80%94+ECharts+%26+deck.gl;26+merged+PRs+in+production+codebases" alt="Typing animation"/>
 
 <br/>
 
@@ -27,8 +27,9 @@
 | 🏆 | What | Proof |
 |:--:|:--|:--|
 | 🎓 | **MSOC 2026 Intern** @ Mifos Initiative — building the **UI Product Templates** project for a fintech platform serving **40+ countries** | [Merged PRs ↓](#-mifos-x-web-app--merged-prs) |
-| 🔥 | **19 merged PRs** across two major open-source codebases | [All my PRs](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
+| 🔥 | **26 merged PRs** across three major open-source organizations | [All my PRs](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
 | 📊 | **Apache Superset** (73.5K ★) — fixes in ECharts & deck.gl rendering internals, shipped in `v6.0` | [Merged PRs ↓](#-apache-superset--merged-prs) |
+| ⚙️ | **RISC-V International** — merged into the official machine-readable ISA specification database | [Merged PRs ↓](#️-risc-v-unified-database--merged-prs) |
 | 💼 | **Past: Data Analyst @ Inspacco** — 6 months of production dashboards, now fueling my software work | [Details ↓](#-industry-experience) |
 
 </div>
@@ -44,7 +45,7 @@ Building the **loan product creation experience** for the Mifos X Angular web ap
 - 🧩 Landing page + **7-step Angular Material stepper** for personal & advance loan products
 - ⚙️ Hidden-defaults payload logic — sensible API payloads without burying users in fields
 - 📖 Human-readable review step before submission
-- ✅ **15 merged PRs** and counting
+- ✅ **20 merged PRs** and counting — now spanning tenant theming and Fineract backend endpoints
 
 ### 📊 [Apache Superset](https://github.com/apache/superset) — Contributor <sub>*(Nov 2025 – present)*</sub>
 
@@ -52,22 +53,27 @@ Working inside the **ECharts and deck.gl plugin internals** of the world's leadi
 
 ---
 
-## 🏦 Mifos X Web App — Merged PRs
+## 🏦 Mifos X — Merged PRs
 
 | PR | What it did | Merged |
 |:--|:--|:--|
-| [#3711](https://github.com/openMF/web-app/pull/3711) | 🎨 **WEB-1031:** Improve loan product creation UI and localization | Jul 2026 |
+| [#3784](https://github.com/openMF/web-app/pull/3784) | 🎨 **WEB-1084:** Add tenant-level theme management page | Aug 2026 |
+| [selfservice-plugin #184](https://github.com/openMF/selfservice-plugin/pull/184) | 🔌 **MX-388:** Backend — tenant branding endpoint for client applications | Aug 2026 |
+| [#3781](https://github.com/openMF/web-app/pull/3781) | ℹ️ **WEB-1006:** Move backend info into System Information | Aug 2026 |
+| [#3764](https://github.com/openMF/web-app/pull/3764) | 🛵 **WEB-1072:** Add Two Wheeler, Education and Agricultural loan products | Jul 2026 |
+| [#3711](https://github.com/openMF/web-app/pull/3711) | 🖌️ **WEB-1031:** Improve loan product creation UI and localization | Jul 2026 |
 | [#3701](https://github.com/openMF/web-app/pull/3701) | 🚀 **WEB-1022:** First version of Product Templates — landing page, personal & advance loan | Jul 2026 |
-| [#3535](https://github.com/openMF/web-app/pull/3535) | 🔧 **WEB-918:** Fix savings application edit flow | Apr 2026 |
-| [#3466](https://github.com/openMF/web-app/pull/3466) | 📈 **WEB-134:** Fix floating rates creation bugs | Apr 2026 |
-| [#3451](https://github.com/openMF/web-app/pull/3451) | 🌍 **WEB-100:** Update account state messages across all i18n language files | Mar 2026 |
 
 <details>
-<summary><b>➕ 10 more merged Mifos PRs…</b></summary>
+<summary><b>➕ 14 more merged Mifos PRs…</b></summary>
 <br/>
 
 | PR | What it did | Merged |
 |:--|:--|:--|
+| [#3780](https://github.com/openMF/web-app/pull/3780) | **WEB-1083:** Document `MIFOS_PRODUCTION_MODE` behavior | Jul 2026 |
+| [#3535](https://github.com/openMF/web-app/pull/3535) | **WEB-918:** Fix savings application edit flow | Apr 2026 |
+| [#3466](https://github.com/openMF/web-app/pull/3466) | **WEB-134:** Fix floating rates creation bugs | Apr 2026 |
+| [#3451](https://github.com/openMF/web-app/pull/3451) | **WEB-100:** Update account state messages across all i18n language files | Mar 2026 |
 | [#3389](https://github.com/openMF/web-app/pull/3389) | **WEB-865:** Add translations for permission names using ngx-translate | Mar 2026 |
 | [#3385](https://github.com/openMF/web-app/pull/3385) | **WEB-859:** Follow-up fix after review feedback on permission search | Mar 2026 |
 | [#3381](https://github.com/openMF/web-app/pull/3381) | **WEB-859:** Update role permission search field UX | Mar 2026 |
@@ -85,10 +91,19 @@ Working inside the **ECharts and deck.gl plugin internals** of the world's leadi
 
 | PR | What it fixed | Size | Merged |
 |:--|:--|:--:|:--|
+| [#38126](https://github.com/apache/superset/pull/38126) | ⏱️ **ECharts timeseries — time shift:** corrected time-shift handling in `transformProps` | `M` | Jul 2026 |
 | [#37244](https://github.com/apache/superset/pull/37244) | 🧊 **deck.gl contour — WebGL freeze:** prevented GPU hang by clamping and auto-scaling `cellSize` on invalid input | `L` | Jan 2026 |
 | [#37217](https://github.com/apache/superset/pull/37217) | 👯 **Mixed timeseries — duplicate legends:** fixed dedup bug doubling entries in multi-series legends | `S` | Jan 2026 |
 | [#36306](https://github.com/apache/superset/pull/36306) | 📜 **ECharts horizontal layout:** switched to scroll legend to stop label collisions | `M` | Dec 2025 |
 | [#36264](https://github.com/apache/superset/pull/36264) | 📝 **Docs — alerts & reports:** clarified duplicate report delivery behavior | `XS` | Nov 2025 |
+
+## ⚙️ RISC-V Unified Database — Merged PRs
+
+The official machine-readable database of the RISC-V ISA specification, maintained by RISC-V International — it generates the ISA manuals, compliance tests and tooling used across the ecosystem.
+
+| PR | What it did | Merged |
+|:--|:--|:--|
+| [#2264](https://github.com/riscv/riscv-unified-db/pull/2264) | 🧮 Add `fscsr`, `fsrm` and `fsflags` floating-point pseudoinstructions to the `csrrw` definition | Jul 2026 |
 
 ---
 
