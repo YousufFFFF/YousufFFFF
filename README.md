@@ -3,7 +3,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=gradient&customColorList=6,11,20&text=Yousuf%20Ansari&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%C2%B7%20Open%20Source%20Contributor%20%C2%B7%20Pune,%20India&descSize=17&descAlignY=58" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=Software+Developer+%E2%80%94+MSOC+2026+Intern+%40+Mifos;Building+UI+Product+Templates+for+Mifos+X;Apache+Superset+Contributor+%E2%80%94+ECharts+%26+deck.gl;26+merged+PRs+in+production+codebases" alt="Typing animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=Software+Developer+%E2%80%94+MSOC+2026+Intern+%40+Mifos;Building+UI+Product+Templates+for+Mifos+X;Apache+Superset+%C2%B7+Kubernetes+SIGs+%C2%B7+RISC-V;33+merged+PRs+in+production+codebases" alt="Typing animation"/>
 
 <br/>
 
@@ -27,8 +27,9 @@
 | 🏆 | What | Proof |
 |:--:|:--|:--|
 | 🎓 | **MSOC 2026 Intern** @ Mifos Initiative — building the **UI Product Templates** project for a fintech platform serving **40+ countries** | [Merged PRs ↓](#-mifos-x-web-app--merged-prs) |
-| 🔥 | **26 merged PRs** across three major open-source organizations | [All my PRs](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
-| 📊 | **Apache Superset** (73.5K ★) — fixes in ECharts & deck.gl rendering internals, shipped in `v6.0` | [Merged PRs ↓](#-apache-superset--merged-prs) |
+| 🔥 | **33 merged PRs** across four major open-source organizations | [All my PRs](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
+| 📊 | **Apache Superset** (74K ★) — fixes in ECharts & deck.gl rendering internals, shipped in `v6.0` | [Merged PRs ↓](#-apache-superset--merged-prs) |
+| ☸️ | **Kubernetes SIGs** — merged into Headlamp (7K ★), the CNCF Kubernetes web UI | [Merged PRs ↓](#-headlamp-kubernetes-sigs--merged-prs) |
 | ⚙️ | **RISC-V International** — merged into the official machine-readable ISA specification database | [Merged PRs ↓](#️-risc-v-unified-database--merged-prs) |
 | 💼 | **Past: Data Analyst @ Inspacco** — 6 months of production dashboards, now fueling my software work | [Details ↓](#-industry-experience) |
 
@@ -45,7 +46,9 @@ Building the **loan product creation experience** for the Mifos X Angular web ap
 - 🧩 Landing page + **7-step Angular Material stepper** for personal & advance loan products
 - ⚙️ Hidden-defaults payload logic — sensible API payloads without burying users in fields
 - 📖 Human-readable review step before submission
-- ✅ **20 merged PRs** and counting — now spanning tenant theming and Fineract backend endpoints
+- 💳 **BNPL** and Two Wheeler / Education / Agricultural loan product templates
+- 🎨 White-label **tenant theming** — web UI plus the Fineract backend endpoints behind it
+- ✅ **26 merged PRs** and counting
 
 ### 📊 [Apache Superset](https://github.com/apache/superset) — Contributor <sub>*(Nov 2025 – present)*</sub>
 
@@ -57,20 +60,26 @@ Working inside the **ECharts and deck.gl plugin internals** of the world's leadi
 
 | PR | What it did | Merged |
 |:--|:--|:--|
-| [#3784](https://github.com/openMF/web-app/pull/3784) | 🎨 **WEB-1084:** Add tenant-level theme management page | Aug 2026 |
+| [#3830](https://github.com/openMF/web-app/pull/3830) | 💳 **WEB-1121:** Implement the **BNPL** (Buy Now Pay Later) loan product template | Aug 2026 |
+| [#3838](https://github.com/openMF/web-app/pull/3838) | 🎨 **WEB-1124:** Translate the Theme page and add custom brand colours | Aug 2026 |
+| [selfservice-plugin #188](https://github.com/openMF/selfservice-plugin/pull/188) | 🔌 **MX-395:** Backend — additional tenant theme colours and custom hex support | Aug 2026 |
 | [selfservice-plugin #184](https://github.com/openMF/selfservice-plugin/pull/184) | 🔌 **MX-388:** Backend — tenant branding endpoint for client applications | Aug 2026 |
-| [#3781](https://github.com/openMF/web-app/pull/3781) | ℹ️ **WEB-1006:** Move backend info into System Information | Aug 2026 |
+| [#3784](https://github.com/openMF/web-app/pull/3784) | 🖌️ **WEB-1084:** Add tenant-level theme management page | Aug 2026 |
 | [#3764](https://github.com/openMF/web-app/pull/3764) | 🛵 **WEB-1072:** Add Two Wheeler, Education and Agricultural loan products | Jul 2026 |
-| [#3711](https://github.com/openMF/web-app/pull/3711) | 🖌️ **WEB-1031:** Improve loan product creation UI and localization | Jul 2026 |
 | [#3701](https://github.com/openMF/web-app/pull/3701) | 🚀 **WEB-1022:** First version of Product Templates — landing page, personal & advance loan | Jul 2026 |
 
 <details>
-<summary><b>➕ 14 more merged Mifos PRs…</b></summary>
+<summary><b>➕ 19 more merged Mifos PRs…</b></summary>
 <br/>
 
 | PR | What it did | Merged |
 |:--|:--|:--|
+| [#3831](https://github.com/openMF/web-app/pull/3831) | **WEB-1120:** Show translated Deferred income tab label | Aug 2026 |
+| [#3817](https://github.com/openMF/web-app/pull/3817) | **WEB-1113:** Improve theme consistency for the loan product creation wizard | Aug 2026 |
+| [#3804](https://github.com/openMF/web-app/pull/3804) | **WEB-1108:** Read tenant branding without credentials | Aug 2026 |
+| [#3781](https://github.com/openMF/web-app/pull/3781) | **WEB-1006:** Move backend info into System Information | Aug 2026 |
 | [#3780](https://github.com/openMF/web-app/pull/3780) | **WEB-1083:** Document `MIFOS_PRODUCTION_MODE` behavior | Jul 2026 |
+| [#3711](https://github.com/openMF/web-app/pull/3711) | **WEB-1031:** Improve loan product creation UI and localization | Jul 2026 |
 | [#3535](https://github.com/openMF/web-app/pull/3535) | **WEB-918:** Fix savings application edit flow | Apr 2026 |
 | [#3466](https://github.com/openMF/web-app/pull/3466) | **WEB-134:** Fix floating rates creation bugs | Apr 2026 |
 | [#3451](https://github.com/openMF/web-app/pull/3451) | **WEB-100:** Update account state messages across all i18n language files | Mar 2026 |
@@ -96,6 +105,14 @@ Working inside the **ECharts and deck.gl plugin internals** of the world's leadi
 | [#37217](https://github.com/apache/superset/pull/37217) | 👯 **Mixed timeseries — duplicate legends:** fixed dedup bug doubling entries in multi-series legends | `S` | Jan 2026 |
 | [#36306](https://github.com/apache/superset/pull/36306) | 📜 **ECharts horizontal layout:** switched to scroll legend to stop label collisions | `M` | Dec 2025 |
 | [#36264](https://github.com/apache/superset/pull/36264) | 📝 **Docs — alerts & reports:** clarified duplicate report delivery behavior | `XS` | Nov 2025 |
+
+## ☸️ Headlamp (Kubernetes SIGs) — Merged PRs
+
+[Headlamp](https://github.com/kubernetes-sigs/headlamp) is the CNCF / Kubernetes SIGs web UI for managing clusters — fully-featured, user-friendly and extensible.
+
+| PR | What it did | Merged |
+|:--|:--|:--|
+| [#6844](https://github.com/kubernetes-sigs/headlamp/pull/6844) | 🐚 **NodeShellTerminal:** surface pod creation errors instead of failing silently | Aug 2026 |
 
 ## ⚙️ RISC-V Unified Database — Merged PRs
 
