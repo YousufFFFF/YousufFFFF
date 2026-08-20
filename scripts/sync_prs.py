@@ -138,10 +138,15 @@ MD_EMOJI = {
 
 
 def anchor(heading):
-    """GitHub's heading-anchor algorithm (emoji drop out, leaving a lead hyphen)."""
+    """Reproduce GitHub's heading-anchor ids.
+
+    Emoji are dropped (leaving the space that preceded them, hence a leading
+    hyphen), but a trailing VARIATION SELECTOR-16 survives -- so "☸️ Headlamp"
+    anchors to "️-headlamp", not "-headlamp". Verified against the rendered
+    README via the GitHub API.
+    """
     s = heading.lower()
-    s = re.sub(r"[^\w\s-]", "", s, flags=re.UNICODE)
-    s = re.sub(r"[̀-ͯ️‍]", "", s)
+    s = "".join(c for c in s if c == "️" or c.isalnum() or c in " -_")
     return s.replace(" ", "-")
 
 
