@@ -3,7 +3,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=gradient&customColorList=6,11,20&text=Yousuf%20Ansari&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%C2%B7%20Open%20Source%20Contributor%20%C2%B7%20Pune,%20India&descSize=17&descAlignY=58" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=Software+Developer+%E2%80%94+MSOC+2026+Intern+%40+Mifos;Building+UI+Product+Templates+for+Mifos+X;Apache+Superset+%C2%B7+Kubernetes+SIGs+%C2%B7+RISC-V;50+merged+PRs+in+production+codebases" alt="Typing animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=Software+Developer+%E2%80%94+MSOC+2026+Intern+%40+Mifos;Building+UI+Product+Templates+for+Mifos+X;Apache+Superset+%C2%B7+Kubernetes+SIGs+%C2%B7+RISC-V;51+merged+PRs+in+production+codebases" alt="Typing animation"/>
 
 <br/>
 
@@ -28,7 +28,7 @@
 | 🏆 | What | Proof |
 |:--:|:--|:--|
 | 🎓 | **MSOC 2026 Intern** @ Mifos Initiative — building the **UI Product Templates** project for a fintech platform serving **40+ countries**, now a library of **13 loan product templates** | [Merged PRs ↓](#-mifos-x--merged-prs) |
-| 🔥 | **50 merged PRs** across four major open-source organizations | [All my PRs](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
+| 🔥 | **51 merged PRs** across four major open-source organizations | [All my PRs](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
 | 📊 | **Apache Superset** (75K ★) — fixes in ECharts & deck.gl rendering internals, shipped in `v6.0` | [Merged PRs ↓](#-apache-superset--merged-prs) |
 | ☸️ | **Kubernetes SIGs** — merged into Headlamp (7K ★), the CNCF Kubernetes web UI | [Merged PRs ↓](#️-headlamp-kubernetes-sigs--merged-prs) |
 | ⚙️ | **RISC-V International** — merged into the official machine-readable ISA specification database | [Merged PRs ↓](#️-risc-v-unified-database--merged-prs) |
@@ -50,7 +50,7 @@ Building the **loan product creation experience** for the Mifos X Angular web ap
 - 📖 Human-readable review step before submission
 - 💳 A library of **13 loan product templates** — BNPL, gold, auto, JLG, home, mortgage, consumer durable and more
 - 🎨 White-label **tenant theming** — web UI plus the Fineract backend endpoints behind it
-- ✅ **42 merged PRs** and counting
+- ✅ **43 merged PRs** and counting
 
 ### 📊 [Apache Superset](https://github.com/apache/superset) — Contributor <sub>*(Nov 2025 – present)*</sub>
 
@@ -63,20 +63,21 @@ Working inside the **ECharts and deck.gl plugin internals** of the world's leadi
 
 | PR | What it did | Merged |
 |:--|:--|:--|
+| [#3951](https://github.com/openMF/web-app/pull/3951) | **WEB-1212** — Hide the duplicate Previous/Next row on the Accounting step | Sep 2026 |
 | [#3946](https://github.com/openMF/web-app/pull/3946) | **WEB-1209** — Explain why the guided loan product wizard cannot submit | Sep 2026 |
 | [#3944](https://github.com/openMF/web-app/pull/3944) | **WEB-1201** — Improve Copilot reasoning and response UX | Sep 2026 |
 | [#3937](https://github.com/openMF/web-app/pull/3937) | **WEB-1199** — Validate numeric input in the guided loan product wizard | Sep 2026 |
 | [#3936](https://github.com/openMF/web-app/pull/3936) | **WEB-1198** — Source delinquency bucket options from the tenant template | Aug 2026 |
 | [#3934](https://github.com/openMF/web-app/pull/3934) | **WEB-1196** — Source loan product template currency options from the tenant template | Aug 2026 |
 | [#3930](https://github.com/openMF/web-app/pull/3930) | **WEB-1190** — Host Classic step components in the Custom/Advanced loan product wizard | Aug 2026 |
-| [#3925](https://github.com/openMF/web-app/pull/3925) | **WEB-1189** — Repair search spec selectors for IME regression test | Aug 2026 |
 
 <details>
-<summary><b>➕ 35 more merged Mifos PRs…</b></summary>
+<summary><b>➕ 36 more merged Mifos PRs…</b></summary>
 <br/>
 
 | PR | What it did | Merged |
 |:--|:--|:--|
+| [#3925](https://github.com/openMF/web-app/pull/3925) | **WEB-1189** — Repair search spec selectors for IME regression test | Aug 2026 |
 | [#3890](https://github.com/openMF/web-app/pull/3890) | **WEB-1167** — Correct installment multiple default and localize product card descriptions | Aug 2026 |
 | [#3884](https://github.com/openMF/web-app/pull/3884) | **WEB-1162** — Implement Loan vs Securities / FD product template | Aug 2026 |
 | [#3878](https://github.com/openMF/web-app/pull/3878) | 💳 **WEB-1159** — Implement Credit Card EMI loan product template | Aug 2026 |
