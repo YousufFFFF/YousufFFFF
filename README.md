@@ -3,7 +3,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=gradient&customColorList=6,11,20&text=Yousuf%20Ansari&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%C2%B7%20Open%20Source%20Contributor%20%C2%B7%20Pune,%20India&descSize=17&descAlignY=58" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=Software+Developer+%E2%80%94+MSOC+2026+Intern+%40+Mifos;Building+UI+Product+Templates+for+Mifos+X;Apache+Superset+%C2%B7+Kubernetes+SIGs+%C2%B7+RISC-V;62+merged+PRs+in+production+codebases" alt="Typing animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=Software+Developer+%E2%80%94+MSOC+2026+Intern+%40+Mifos;Building+UI+Product+Templates+for+Mifos+X;Apache+Superset+%C2%B7+Kubernetes+SIGs+%C2%B7+RISC-V;63+merged+PRs+in+production+codebases" alt="Typing animation"/>
 
 <br/>
 
@@ -28,7 +28,7 @@
 | 🏆 | What | Proof |
 |:--:|:--|:--|
 | 🎓 | **MSOC 2026 Intern** @ Mifos Initiative — building the **UI Product Templates** project for a fintech platform serving **40+ countries**, now a library of **13 loan product templates** | [Merged PRs ↓](#-mifos-x--merged-prs) |
-| 🔥 | **62 merged PRs** across four major open-source organizations | [All my PRs](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
+| 🔥 | **63 merged PRs** across four major open-source organizations | [All my PRs](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
 | 📊 | **Apache Superset** (75K ★) — fixes in ECharts & deck.gl rendering internals, shipped in `v6.0` | [Merged PRs ↓](#-apache-superset--merged-prs) |
 | ☸️ | **Kubernetes SIGs** — merged into Headlamp (7K ★), the CNCF Kubernetes web UI | [Merged PRs ↓](#️-headlamp-kubernetes-sigs--merged-prs) |
 | ⚙️ | **RISC-V International** — merged into the official machine-readable ISA specification database | [Merged PRs ↓](#️-risc-v-unified-database--merged-prs) |
@@ -151,6 +151,7 @@ The official machine-readable database of the RISC-V ISA specification, maintain
 
 | PR | What it did | Merged |
 |:--|:--|:--|
+| [#2578](https://github.com/riscv/riscv-unified-db/pull/2578) | Data: correct Sv32 page table level count from 3 to 2 | Sep 2026 |
 | [#2577](https://github.com/riscv/riscv-unified-db/pull/2577) | Data: make Zbc require Zbkc and define clmul/clmulh in Zbkc | Sep 2026 |
 | [#2264](https://github.com/riscv/riscv-unified-db/pull/2264) | 🧮 **Floating-point CSR pseudoinstructions** — added `fscsr`, `fsrm` and `fsflags` to the `csrrw` instruction definition | Jul 2026 |
 <!-- AUTO:TABLES:END -->
