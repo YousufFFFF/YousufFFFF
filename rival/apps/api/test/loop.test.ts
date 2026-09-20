@@ -116,6 +116,33 @@ describe('the full journey', () => {
   });
 });
 
+describe('the home screen', () => {
+  it('stops celebrating a lead once it has been taken back', async () => {
+    const muzz = await createUser({ username: 'leadmuzz', displayName: 'Muzz' });
+    const rahul = await createUser({ username: 'leadrahul', displayName: 'Rahul' });
+    await connect(muzz, rahul);
+
+    // Muzz goes ahead on bench...
+    await logLift(rahul, 'bench-press', [{ weight: 90, reps: 1 }], { sessionDate: addDays(TODAY, -3) });
+    await logLift(muzz, 'bench-press', [{ weight: 95, reps: 1 }], { sessionDate: addDays(TODAY, -2) });
+
+    const ahead = await request<{ cards: { kind: string }[] }>('GET', '/v1/home', { token: muzz.accessToken });
+    assert.ok(ahead.body.cards.some((card) => card.kind === 'took_the_lead'));
+
+    // ...and Rahul takes it straight back.
+    await logLift(rahul, 'bench-press', [{ weight: 100, reps: 1 }], { sessionDate: addDays(TODAY, -1) });
+
+    const behind = await request<{ cards: { kind: string }[] }>('GET', '/v1/home', { token: muzz.accessToken });
+    assert.equal(
+      behind.body.cards.some((card) => card.kind === 'took_the_lead'),
+      false,
+      'a lead that has been taken back must not still be celebrated',
+    );
+    // ...and the rival now shows up as a threat instead.
+    assert.ok(behind.body.cards.some((card) => card.kind === 'pr_battle' || card.kind === 'consistency_behind'));
+  });
+});
+
 describe('PR detection through the API', () => {
   let user: TestUser;
 

@@ -401,11 +401,12 @@ export async function listRivals(userId: string): Promise<RivalSummary[]> {
       you,
       them,
       leader,
+      // Written from the viewer's side: their own device says "You lead".
       headline:
         leader === 'tie'
           ? `Draw ${you}–${them}`
           : leader === 'you'
-            ? `${profile.display_name} leads ${you}–${them}`
+            ? `You lead ${you}–${them}`
             : `${row.display_name} leads ${them}–${you}`,
       sessionsYou: row.sessions_you,
       sessionsThem: row.sessions_them,

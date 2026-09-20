@@ -2,16 +2,19 @@
   "name": "rival",
   "version": "0.1.0",
   "private": true,
-  "description": "RIVAL — Your friends. Your PRs. Your competition.",
+  "description": "RIVAL \u2014 Your friends. Your PRs. Your competition.",
   "workspaces": [
     "packages/*",
     "apps/api",
-    "apps/web"
+    "apps/web",
+    "apps/mobile"
   ],
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
-    "build": "npm run build -w @rival/core && npm run build -w @rival/api",
-    "typecheck": "npm run typecheck -w @rival/core && npm run typecheck -w @rival/api",
+    "build": "npm run build -w @rival/core && npm run build -w @rival/api-client && npm run build -w @rival/api && npm run build -w @rival/web",
+    "typecheck": "npm run typecheck -w @rival/core && npm run typecheck -w @rival/api-client && npm run typecheck -w @rival/api && npm run typecheck -w @rival/web && npm run typecheck -w @rival/mobile",
     "test": "npm run test -w @rival/core && npm run test -w @rival/api",
     "test:core": "npm run test -w @rival/core",
     "db:migrate": "npm run migrate -w @rival/api",

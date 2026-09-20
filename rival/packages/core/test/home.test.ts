@@ -111,6 +111,21 @@ describe('home feed', () => {
     assert.match(card.body, /2\.5 kg above Rahul/);
   });
 
+  it('collapses several leads into one card', () => {
+    const feed = buildHomeFeed({
+      ...BASE,
+      recentLeads: [
+        { rivalId: 'r', rivalName: 'Rahul', exerciseId: 'b', exerciseName: 'Bench Press', deltaGrams: toGrams(10, 'kg') },
+        { rivalId: 'r', rivalName: 'Rahul', exerciseId: 'o', exerciseName: 'Overhead Press', deltaGrams: toGrams(7.5, 'kg') },
+        { rivalId: 'r', rivalName: 'Rahul', exerciseId: 's', exerciseName: 'Squat', deltaGrams: toGrams(5, 'kg') },
+      ],
+    });
+    const cards = feed.filter((c) => c.kind === 'took_the_lead');
+    assert.equal(cards.length, 1, 'three leads should not produce three identical cards');
+    assert.equal(cards[0]!.title, 'You took the lead on 3 lifts');
+    assert.match(cards[0]!.body, /Bench Press and Overhead Press, Squat/);
+  });
+
   it('sorts strictly by priority', () => {
     const feed = buildHomeFeed({
       ...BASE,

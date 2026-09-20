@@ -49,21 +49,31 @@ export async function getHome(userId: string): Promise<HomeView> {
           ORDER BY deadline LIMIT 5`,
         [userId],
       ),
-      // Leads taken in the last week, so the "you took #1" card has a life span.
+      // Leads taken in the last week — but only ones that still stand. A
+      // "you took the lead" card for a lead since lost is worse than no card,
+      // so the current records are re-checked rather than trusting the event.
       many<{ rival_id: string; rival_name: string; exercise_id: string; exercise_name: string; delta_grams: number }>(
-        `SELECT CASE WHEN r.user_a_id = $1 THEN r.user_b_id ELSE r.user_a_id END AS rival_id,
-                p.display_name AS rival_name,
+        `SELECT DISTINCT ON (ev.exercise_id, rival.user_id)
+                rival.user_id AS rival_id,
+                rival.display_name AS rival_name,
                 ev.exercise_id, e.name AS exercise_name,
-                (ev.payload->>'deltaGrams')::bigint AS delta_grams
+                (mine.value - theirs.value) AS delta_grams
            FROM rivalry_events ev
-           JOIN rivalries r ON r.id = ev.rivalry_id
-           JOIN profiles p
-             ON p.user_id = CASE WHEN r.user_a_id = $1 THEN r.user_b_id ELSE r.user_a_id END
-           LEFT JOIN exercises e ON e.id = ev.exercise_id
+           JOIN rivalries r ON r.id = ev.rivalry_id AND r.is_active
+           JOIN profiles rival
+             ON rival.user_id = CASE WHEN r.user_a_id = $1 THEN r.user_b_id ELSE r.user_a_id END
+           JOIN exercises e ON e.id = ev.exercise_id
+           JOIN personal_records mine
+             ON mine.user_id = $1 AND mine.exercise_id = ev.exercise_id AND mine.pr_type = 'weight'
+           JOIN personal_records theirs
+             ON theirs.user_id = rival.user_id AND theirs.exercise_id = ev.exercise_id
+            AND theirs.pr_type = 'weight'
           WHERE ev.actor_id = $1
             AND ev.event_type = 'lead_taken'
             AND ev.created_at > now() - interval '7 days'
-          ORDER BY ev.created_at DESC LIMIT 3`,
+            AND mine.value > theirs.value
+          ORDER BY ev.exercise_id, rival.user_id, ev.created_at DESC
+          LIMIT 3`,
         [userId],
       ),
     ]);

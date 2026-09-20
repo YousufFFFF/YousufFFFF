@@ -102,12 +102,19 @@ export function buildHomeFeed(signals: HomeSignals): HomeCard[] {
     });
   }
 
-  for (const lead of signals.recentLeads) {
+  // Several leads collapse into one card. Three identical "you took the lead"
+  // banners in a row reads as noise and buries whatever is actually urgent.
+  if (signals.recentLeads.length > 0) {
+    const [first, ...rest] = signals.recentLeads;
+    const lead = first!;
     cards.push({
       kind: 'took_the_lead',
       priority: 90,
-      title: 'You took the lead',
-      body: `Your ${lead.exerciseName} PR is now ${fromGrams(lead.deltaGrams, unit)} ${unit} above ${lead.rivalName}'s.`,
+      title: rest.length === 0 ? 'You took the lead' : `You took the lead on ${signals.recentLeads.length} lifts`,
+      body:
+        rest.length === 0
+          ? `Your ${lead.exerciseName} PR is now ${fromGrams(lead.deltaGrams, unit)} ${unit} above ${lead.rivalName}'s.`
+          : `${lead.exerciseName} and ${rest.map((l) => l.exerciseName).join(', ')} — you're ahead on all of them now.`,
       cta: { label: 'Share it', action: 'share.pr', params: { exerciseId: lead.exerciseId } },
       tone: 'positive',
       rivalId: lead.rivalId,

@@ -1,4 +1,4 @@
-import type { HomeCard, LeaderboardEntry, PrivacySettings, WeightUnit } from '@rival/core';
+import type { HomeCard, LeaderboardEntry, PrivacySettings, Visibility, WeightUnit } from '@rival/core';
 
 /**
  * The shapes the API returns.
@@ -360,4 +360,4 @@ export interface ReferralSummary {
   invites: { username: string | null; display_name: string | null; status: string; created_at: string }[];
 }
 
-export type { HomeCard, LeaderboardEntry, PrivacySettings, WeightUnit };
+export type { HomeCard, LeaderboardEntry, PrivacySettings, Visibility, WeightUnit };
