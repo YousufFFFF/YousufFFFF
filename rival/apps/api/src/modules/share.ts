@@ -94,7 +94,11 @@ export function renderShareCard(data: ShareCardData, format: ShareFormat = 'stor
 
   // A story has room to breathe; the compact card has to stay tight.
   const scale = format === 'story' ? 1 : format === 'square' ? 0.82 : 0.62;
-  const centre = format === 'story' ? height * 0.46 : height * 0.5;
+  // The content block runs from 340 above the centre to 450 below it (times
+  // the scale). Placing the centre so those two gaps match keeps every format
+  // optically centred rather than bottom-heavy.
+  const contentHeight = (340 + 450) * scale;
+  const centre = (height - contentHeight) / 2 + 340 * scale;
 
   const isWeight = data.prType === 'weight' || data.prType === 'e1rm';
   const headline = isWeight ? `${fromGrams(data.value, data.unit)}` : `${data.value}`;
@@ -126,15 +130,15 @@ export function renderShareCard(data: ShareCardData, format: ShareFormat = 'stor
   <rect width="${width}" height="${height}" fill="url(#bg)"/>
   <rect width="${width}" height="${height}" fill="url(#glow)"/>
 
-  <text x="${cx}" y="${centre - 300 * scale}" text-anchor="middle"
+  <text x="${cx}" y="${centre - 340 * scale}" text-anchor="middle"
         font-family="Inter, Helvetica, Arial, sans-serif" font-size="${44 * scale}" font-weight="800"
         letter-spacing="${18 * scale}" fill="#FFFFFF" opacity="0.92">RIVAL</text>
 
-  <text x="${cx}" y="${centre - 190 * scale}" text-anchor="middle"
+  <text x="${cx}" y="${centre - 245 * scale}" text-anchor="middle"
         font-family="Inter, Helvetica, Arial, sans-serif" font-size="${40 * scale}" font-weight="700"
         letter-spacing="${8 * scale}" fill="url(#accent)">NEW PR</text>
 
-  <text x="${cx}" y="${centre - 100 * scale}" text-anchor="middle"
+  <text x="${cx}" y="${centre - 155 * scale}" text-anchor="middle"
         font-family="Inter, Helvetica, Arial, sans-serif" font-size="${52 * scale}" font-weight="700"
         letter-spacing="${4 * scale}" fill="#FFFFFF" opacity="0.72">${escapeXml(data.exerciseName.toUpperCase())}</text>
 
