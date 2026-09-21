@@ -3,7 +3,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=gradient&customColorList=6,11,20&text=Yousuf%20Ansari&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%C2%B7%20Open%20Source%20Contributor%20%C2%B7%20Pune,%20India&descSize=17&descAlignY=58" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=Software+Developer+%E2%80%94+MSOC+2026+Intern+%40+Mifos;Building+UI+Product+Templates+for+Mifos+X;Apache+Superset+%C2%B7+Kubernetes+SIGs+%C2%B7+RISC-V;71+merged+PRs+in+production+codebases" alt="Typing animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=Software+Developer+%E2%80%94+MSOC+2026+Intern+%40+Mifos;Building+UI+Product+Templates+for+Mifos+X;Apache+Superset+%C2%B7+Kubernetes+SIGs+%C2%B7+RISC-V;72+merged+PRs+in+production+codebases" alt="Typing animation"/>
 
 <br/>
 
@@ -28,11 +28,11 @@
 | 🏆 | What | Proof |
 |:--:|:--|:--|
 | 🎓 | **MSOC 2026 Intern** @ Mifos Initiative — building the **UI Product Templates** project for a fintech platform serving **40+ countries**, now a library of **13 loan product templates** | [Merged PRs ↓](#-mifos-x--merged-prs) |
-| 🔥 | **71 merged PRs** across five major open-source organizations | [All my PRs](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
+| 🔥 | **72 merged PRs** across five major open-source organizations | [All my PRs](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
 | 📊 | **Apache Superset** (75K ★) — fixes in ECharts & deck.gl rendering internals, shipped in `v6.0` | [Merged PRs ↓](#-apache-superset--merged-prs) |
 | ☸️ | **Kubernetes SIGs** — merged into Headlamp (7K ★), the CNCF Kubernetes web UI | [Merged PRs ↓](#️-headlamp-kubernetes-sigs--merged-prs) |
 | ⚙️ | **RISC-V International** — merged into the official machine-readable ISA specification database | [Merged PRs ↓](#️-risc-v-unified-database--merged-prs) |
-| 🧩 | **Mifos X Tenantmanagement Plugin** — 4 merged PRs | [Merged PRs ↓](#-mifos-x-tenantmanagement-plugin--merged-prs) |
+| 🧩 | **Mifos X Tenantmanagement Plugin** — 5 merged PRs | [Merged PRs ↓](#-mifos-x-tenantmanagement-plugin--merged-prs) |
 | 💼 | **Past: Data Analyst @ Inspacco** — 6 months of production dashboards, now fueling my software work | [Details ↓](#-industry-experience) |
 <!-- AUTO:SUMMARY:END -->
 
@@ -164,6 +164,7 @@ The official machine-readable database of the RISC-V ISA specification, maintain
 
 | PR | What it did | Merged |
 |:--|:--|:--|
+| [#5](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/5) | **MX-418** — Add tenant update, status changes and removal | Sep 2026 |
 | [#4](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/4) | **MX-417** — Add tenant creation, provisioning and the administration audit trail | Sep 2026 |
 | [#3](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/3) | **MX-416** — Add super master security and the read-only tenant registry API | Sep 2026 |
 | [#2](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/2) | **MX-415** — Upgrade to Java 25 and Spring Boot 4.1 | Sep 2026 |
