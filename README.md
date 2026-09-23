@@ -3,7 +3,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=gradient&customColorList=6,11,20&text=Yousuf%20Ansari&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%C2%B7%20Open%20Source%20Contributor%20%C2%B7%20Pune,%20India&descSize=17&descAlignY=58" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=Software+Developer+%E2%80%94+MSOC+2026+Intern+%40+Mifos;Building+UI+Product+Templates+for+Mifos+X;Apache+Superset+%C2%B7+Kubernetes+SIGs+%C2%B7+RISC-V;75+merged+PRs+in+production+codebases" alt="Typing animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=Software+Developer+%E2%80%94+MSOC+2026+Intern+%40+Mifos;Building+UI+Product+Templates+for+Mifos+X;Apache+Superset+%C2%B7+Kubernetes+SIGs+%C2%B7+RISC-V;76+merged+PRs+in+production+codebases" alt="Typing animation"/>
 
 <br/>
 
@@ -28,7 +28,7 @@
 | 🏆 | What | Proof |
 |:--:|:--|:--|
 | 🎓 | **MSOC 2026 Intern** @ Mifos Initiative — building the **UI Product Templates** project for a fintech platform serving **40+ countries**, now a library of **13 loan product templates** | [Merged PRs ↓](#-mifos-x--merged-prs) |
-| 🔥 | **75 merged PRs** across five major open-source organizations | [All my PRs](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
+| 🔥 | **76 merged PRs** across five major open-source organizations | [All my PRs](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
 | 📊 | **Apache Superset** (75K ★) — fixes in ECharts & deck.gl rendering internals, shipped in `v6.0` | [Merged PRs ↓](#-apache-superset--merged-prs) |
 | ☸️ | **Kubernetes SIGs** — merged into Headlamp (7K ★), the CNCF Kubernetes web UI | [Merged PRs ↓](#️-headlamp-kubernetes-sigs--merged-prs) |
 | ⚙️ | **RISC-V International** — merged into the official machine-readable ISA specification database | [Merged PRs ↓](#️-risc-v-unified-database--merged-prs) |
@@ -51,7 +51,7 @@ Building the **loan product creation experience** for the Mifos X Angular web ap
 - 📖 Human-readable review step before submission
 - 💳 A library of **13 loan product templates** — BNPL, gold, auto, JLG, home, mortgage, consumer durable and more
 - 🎨 White-label **tenant theming** — web UI plus the Fineract backend endpoints behind it
-- ✅ **58 merged PRs** and counting
+- ✅ **59 merged PRs** and counting
 
 ### 📊 [Apache Superset](https://github.com/apache/superset) — Contributor <sub>*(Nov 2025 – present)*</sub>
 
@@ -64,20 +64,21 @@ Working inside the **ECharts and deck.gl plugin internals** of the world's leadi
 
 | PR | What it did | Merged |
 |:--|:--|:--|
+| [#4036](https://github.com/openMF/web-app/pull/4036) | **WEB-1252** — Add tenant creation, editing and lifecycle actions | Sep 2026 |
 | [#4035](https://github.com/openMF/web-app/pull/4035) | **WEB-1242** — Add the tenant management administration UI | Sep 2026 |
 | [#4025](https://github.com/openMF/web-app/pull/4025) | **WEB-1248** — Keep typed decimals in the loan application principal | Sep 2026 |
 | [#4012](https://github.com/openMF/web-app/pull/4012) | **WEB-1246** — Keep the operator on their step and show per-step status in the guided wizard | Sep 2026 |
 | [#4011](https://github.com/openMF/web-app/pull/4011) | **WEB-1245** — Allow decimal nominal interest rate when creating a loan account | Sep 2026 |
 | [#3998](https://github.com/openMF/web-app/pull/3998) | **WEB-1241** — Add guarantors as a tab under the loan account box | Sep 2026 |
 | [#3994](https://github.com/openMF/web-app/pull/3994) | **WEB-1239** — Render the Eclipse BIRT report preview | Sep 2026 |
-| [#3992](https://github.com/openMF/web-app/pull/3992) | **WEB-1237** — Restore guarantor management on loan accounts | Sep 2026 |
 
 <details>
-<summary><b>➕ 51 more merged Mifos PRs…</b></summary>
+<summary><b>➕ 52 more merged Mifos PRs…</b></summary>
 <br/>
 
 | PR | What it did | Merged |
 |:--|:--|:--|
+| [#3992](https://github.com/openMF/web-app/pull/3992) | **WEB-1237** — Restore guarantor management on loan accounts | Sep 2026 |
 | [#3984](https://github.com/openMF/web-app/pull/3984) | **WEB-1226** — Download any document, and preview xlsx and csv files | Sep 2026 |
 | [#3982](https://github.com/openMF/web-app/pull/3982) | **WEB-1231** — Name the guided interest rate and grace fields for what they measure | Sep 2026 |
 | [#3976](https://github.com/openMF/web-app/pull/3976) | **WEB-1222** — Fix PDF document preview rendering blank | Sep 2026 |
