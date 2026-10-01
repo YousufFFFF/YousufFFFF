@@ -3,7 +3,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=gradient&customColorList=6,11,20&text=Yousuf%20Ansari&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Developer%20%C2%B7%20Open%20Source%20Contributor%20%C2%B7%20Pune,%20India&descSize=17&descAlignY=58" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=Software+Developer+%E2%80%94+MSOC+2026+Intern+%40+Mifos;Building+UI+Product+Templates+for+Mifos+X;Apache+Superset+%C2%B7+Kubernetes+SIGs+%C2%B7+RISC-V;78+merged+PRs+in+production+codebases" alt="Typing animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=7C6CFF&center=true&vCenter=true&width=640&lines=Software+Developer+%E2%80%94+MSOC+2026+Intern+%40+Mifos+%E2%9C%93;Shipped+UI+Product+Templates+for+Mifos+X;Apache+Superset+%C2%B7+Kubernetes+SIGs+%C2%B7+RISC-V;78+merged+PRs+in+production+codebases" alt="Typing animation"/>
 
 <br/>
 
@@ -27,7 +27,7 @@
 <!-- AUTO:SUMMARY:START -->
 | 🏆 | What | Proof |
 |:--:|:--|:--|
-| 🎓 | **MSOC 2026 Intern** @ Mifos Initiative — building the **UI Product Templates** project for a fintech platform serving **40+ countries**, now a library of **13 loan product templates** | [Merged PRs ↓](#-mifos-x--merged-prs) |
+| 🎓 | **MSOC 2026 Intern (completed ✅)** @ Mifos Initiative — delivered the **UI Product Templates** project for a fintech platform serving **40+ countries**, shipping a library of **13 loan product templates** | [Merged PRs ↓](#-mifos-x--merged-prs) |
 | 🔥 | **78 merged PRs** across five major open-source organizations | [All my PRs](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
 | 📊 | **Apache Superset** (75K ★) — fixes in ECharts & deck.gl rendering internals, shipped in `v6.0` | [Merged PRs ↓](#-apache-superset--merged-prs) |
 | ☸️ | **Kubernetes SIGs** — merged into Headlamp (7K ★), the CNCF Kubernetes web UI | [Merged PRs ↓](#️-headlamp-kubernetes-sigs--merged-prs) |
@@ -40,18 +40,26 @@
 
 ---
 
+## 🎓 Internship completed — MSOC 2026 @ Mifos Initiative
+
+### 🏦 [Mifos X Web App](https://github.com/openMF/web-app) — Software Intern · UI Product Templates <sub>*(May – Aug 2026 · ✅ Completed)*</sub>
+
+Successfully completed the **Mifos Summer of Code 2026** internship, building the **loan product creation experience** for the Mifos X Angular web app — a microfinance platform used in 40+ countries:
+
+- 🧩 Shipped a landing page + **7-step Angular Material stepper** for personal & advance loan products
+- ⚙️ Built hidden-defaults payload logic — sensible API payloads without burying users in fields
+- 📖 Designed a human-readable review step before submission
+- 💳 Delivered a library of **13 loan product templates** — BNPL, gold, auto, JLG, home, mortgage, consumer durable and more
+- 🎨 Added white-label **tenant theming** — web UI plus the Fineract backend endpoints behind it
+- ✅ **61 merged PRs** across the Mifos web app and Fineract plugins
+
+---
+
 ## 🚀 What I'm shipping right now
 
-### 🏦 [MSOC 2026 @ Mifos Initiative](https://github.com/openMF/web-app) — Software Intern · UI Product Templates <sub>*(May – Aug 2026)*</sub>
+### 🏦 [Mifos Initiative](https://github.com/openMF) — Contributor <sub>*(post-internship)*</sub>
 
-Building the **loan product creation experience** for the Mifos X Angular web app — a microfinance platform used in 40+ countries:
-
-- 🧩 Landing page + **7-step Angular Material stepper** for personal & advance loan products
-- ⚙️ Hidden-defaults payload logic — sensible API payloads without burying users in fields
-- 📖 Human-readable review step before submission
-- 💳 A library of **13 loan product templates** — BNPL, gold, auto, JLG, home, mortgage, consumer durable and more
-- 🎨 White-label **tenant theming** — web UI plus the Fineract backend endpoints behind it
-- ✅ **61 merged PRs** and counting
+Still contributing after the internship — the **tenant management** administration UI in the web app and the new [Mifos X Tenantmanagement Plugin](https://github.com/openMF/mifos-x-tenantmanagement-plugin).
 
 ### 📊 [Apache Superset](https://github.com/apache/superset) — Contributor <sub>*(Nov 2025 – present)*</sub>
 
