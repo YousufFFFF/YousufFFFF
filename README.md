@@ -23,11 +23,11 @@ I work mainly in **TypeScript and Angular** on the frontend, with backend work i
 | Highlight | Details |
 |:--|:--|
 | **Software Intern, Mifos Initiative** | MSOC 2026, completed · delivered the UI Product Templates project for a fintech platform used in 40+ countries, including **13 loan product templates** · [PRs](#mifos-x-web-app) |
-| **78 merged pull requests** | Across five open-source organizations · [view all](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
+| **78 merged pull requests** | Across four open-source organizations · [view all](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
+| **Mifos X Tenant Management Plugin** | Java / Spring Boot plugin for Apache Fineract — security, tenant provisioning and lifecycle · [PRs](#mifos-x-tenant-management-plugin) |
 | **Apache Superset** · 75K ★ | Fixes in the ECharts & deck.gl rendering internals, shipped in `v6.0` · [PRs](#apache-superset) |
 | **Kubernetes SIGs** · Headlamp 7K ★ | Merged into the CNCF web UI for managing Kubernetes clusters · [PRs](#headlamp-kubernetes-sigs) |
 | **RISC-V International** | Merged into the official machine-readable ISA specification database · [PRs](#risc-v-unified-database) |
-| **Mifos X Tenantmanagement Plugin** | 7 merged PRs · [PRs](#mifos-x-tenantmanagement-plugin) |
 <!-- AUTO:SUMMARY:END -->
 
 ## Experience
@@ -139,6 +139,18 @@ I work mainly in **TypeScript and Angular** on the frontend, with backend work i
 
 </details>
 
+### Mifos X Tenant Management Plugin
+
+| PR | What it did | Merged |
+|:--|:--|:--|
+| [#7](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/7) | **MX-421** — Classify database connection failures and probe the server | Sep 2026 |
+| [#6](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/6) | **MX-419** — Document the tenant management plugin | Sep 2026 |
+| [#5](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/5) | **MX-418** — Add tenant update, status changes and removal | Sep 2026 |
+| [#4](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/4) | **MX-417** — Add tenant creation, provisioning and the administration audit trail | Sep 2026 |
+| [#3](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/3) | **MX-416** — Add super master security and the read-only tenant registry API | Sep 2026 |
+| [#2](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/2) | **MX-415** — Upgrade to Java 25 and Spring Boot 4.1 | Sep 2026 |
+| [#1](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/1) | **MX-410** — Add Maven build, CI and contributor docs | Sep 2026 |
+
 ### Apache Superset
 
 | PR | What it did | Merged |
@@ -167,18 +179,6 @@ The official machine-readable database of the RISC-V ISA specification, maintain
 | [#2578](https://github.com/riscv/riscv-unified-db/pull/2578) | Data: correct Sv32 page table level count from 3 to 2 | Sep 2026 |
 | [#2577](https://github.com/riscv/riscv-unified-db/pull/2577) | Data: make Zbc require Zbkc and define clmul/clmulh in Zbkc | Sep 2026 |
 | [#2264](https://github.com/riscv/riscv-unified-db/pull/2264) | **Floating-point CSR pseudoinstructions** — added `fscsr`, `fsrm` and `fsflags` to the `csrrw` instruction definition | Jul 2026 |
-
-### Mifos X Tenantmanagement Plugin
-
-| PR | What it did | Merged |
-|:--|:--|:--|
-| [#7](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/7) | **MX-421** — Classify database connection failures and probe the server | Sep 2026 |
-| [#6](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/6) | **MX-419** — Document the tenant management plugin | Sep 2026 |
-| [#5](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/5) | **MX-418** — Add tenant update, status changes and removal | Sep 2026 |
-| [#4](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/4) | **MX-417** — Add tenant creation, provisioning and the administration audit trail | Sep 2026 |
-| [#3](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/3) | **MX-416** — Add super master security and the read-only tenant registry API | Sep 2026 |
-| [#2](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/2) | **MX-415** — Upgrade to Java 25 and Spring Boot 4.1 | Sep 2026 |
-| [#1](https://github.com/openMF/mifos-x-tenantmanagement-plugin/pull/1) | **MX-410** — Add Maven build, CI and contributor docs | Sep 2026 |
 <!-- AUTO:TABLES:END -->
 
 ## GitHub Activity
