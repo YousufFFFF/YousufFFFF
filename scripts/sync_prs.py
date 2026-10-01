@@ -28,7 +28,7 @@ PROJECTS = [
         repos=["openMF/web-app", "openMF/selfservice-plugin"],
         url="https://github.com/openMF/web-app",
         badge_class="mifos", badge="MSOC 2026 · Intern · Completed", star_repo=None,
-        meta="MSOC 2026 (completed) · UI Product Templates · fintech in 40+ countries · {n} merged PRs",
+        meta="May – Aug 2026 (completed) · UI Product Templates · fintech in 40+ countries · {n} merged PRs",
         desc=("Built the loan product creation experience — a 7-step Angular Material stepper with "
               "hidden-defaults payload logic and human-readable review UX. Shipped a library of "
               "<b>{templates} loan product templates</b> — BNPL, gold, auto, JLG, home, mortgage and more — "
@@ -381,6 +381,11 @@ def main():
         after = replace_block(after, "CARDS", cards_html)
         after = re.sub(r"(\d+) merged PRs in production codebases",
                        "%d merged PRs in production codebases" % total, after)
+        # keep the hand-written internship bullet in the experience timeline honest
+        mifos = next((g for p, g in groups if p["key"] == "mifos"), [])
+        after = re.sub(r"\d+ merged PRs spanning a \d+-product loan template library",
+                       "%d merged PRs spanning a %d-product loan template library"
+                       % (len(mifos), sum(templates_in(p) for p in mifos)), after)
         if after != before:
             with open(html_path, "w", encoding="utf-8", newline="\n") as fh:
                 fh.write(after)
