@@ -183,12 +183,10 @@ The official machine-readable database of the RISC-V ISA specification, maintain
 
 ## GitHub Activity
 
-<div align="center">
-
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=YousufFFFF&theme=github_dark" alt="GitHub stats"/>
-<img height="165" src="https://streak-stats.demolab.com?user=YousufFFFF&theme=github-dark-blue&hide_border=true" alt="GitHub streak"/>
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/skyline-dark.svg">
+  <img src="assets/skyline-light.svg" width="100%" alt="Contribution skyline: a year of GitHub contributions as a 3D isometric chart, with yearly total, busiest day and streaks">
+</picture>
 
 ---
 
