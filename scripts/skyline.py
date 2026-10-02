@@ -9,6 +9,7 @@ plays inside images.
 
     python scripts/skyline.py            # fetch real data, write assets/skyline-{light,dark}.svg
     python scripts/skyline.py --sample   # seeded demo year, for previewing offline
+    python scripts/skyline.py --json contributions.json   # just the data, for the portfolio's live chart
 
 Run by .github/workflows/sync-prs.yml. If the data can't be fetched, the
 existing images are left alone and the script exits 0 so the PR sync still runs.
@@ -373,8 +374,16 @@ def main():
     if not data:
         print("warning: no contribution data; leaving the skyline images unchanged")
         return 0
-    end = max(dt.date.fromisoformat(d["date"]) for d in data)
     root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    if "--json" in sys.argv:
+        path = os.path.join(root, sys.argv[sys.argv.index("--json") + 1])
+        days = sorted(({"date": d["date"], "count": d["count"]} for d in data), key=lambda d: d["date"])
+        with open(path, "w", encoding="utf-8", newline="\n") as fh:
+            json.dump(days, fh, separators=(",", ":"))
+            fh.write("\n")
+        print("data: wrote %d days to %s" % (len(days), os.path.relpath(path, root)))
+        return 0
+    end = max(dt.date.fromisoformat(d["date"]) for d in data)
     out_dir = os.path.join(root, "assets")
     os.makedirs(out_dir, exist_ok=True)
     for theme in ("light", "dark"):
