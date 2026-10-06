@@ -13,7 +13,7 @@
 
 ---
 
-Software developer with **82 merged pull requests** in production open-source codebases — Apache Superset, Kubernetes SIGs, RISC-V International and the Mifos Initiative. I recently **completed the Mifos Summer of Code (MSOC) 2026 internship**, where I shipped the loan product creation experience for a fintech platform used by microfinance institutions in 40+ countries.
+Software developer with **90 merged pull requests** in production open-source codebases — Apache Superset, Kubernetes SIGs, RISC-V International and the Mifos Initiative. I recently **completed the Mifos Summer of Code (MSOC) 2026 internship**, where I shipped the loan product creation experience for a fintech platform used by microfinance institutions in 40+ countries.
 
 I work mainly in **TypeScript and Angular** on the frontend, with backend work in **Java / Spring Boot** and a data background from production analytics.
 
@@ -23,12 +23,12 @@ I work mainly in **TypeScript and Angular** on the frontend, with backend work i
 | Highlight | Details |
 |:--|:--|
 | **Software Intern, Mifos Initiative** | MSOC 2026, completed · delivered the UI Product Templates project for a fintech platform used in 40+ countries, including **13 loan product templates** · [PRs](#mifos-x-web-app) |
-| **82 merged pull requests** | Across four open-source organizations · [view all](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
+| **90 merged pull requests** | Across four open-source organizations · [view all](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
 | **Mifos X Tenant Management Plugin** | Java / Spring Boot plugin for Apache Fineract — security, tenant provisioning and lifecycle · [PRs](#mifos-x-tenant-management-plugin) |
 | **Apache Superset** · 75K ★ | Fixes in the ECharts & deck.gl rendering internals, shipped in `v6.0` · [PRs](#apache-superset) |
 | **Kubernetes SIGs** · Headlamp 7K ★ | Merged into the CNCF web UI for managing Kubernetes clusters · [PRs](#headlamp-kubernetes-sigs) |
 | **RISC-V International** | Merged into the official machine-readable ISA specification database · [PRs](#risc-v-unified-database) |
-| **Mcp Mifosx** | 4 merged PRs · [PRs](#mcp-mifosx) |
+| **Mcp Mifosx** | 12 merged PRs · [PRs](#mcp-mifosx) |
 <!-- AUTO:SUMMARY:END -->
 
 ## Experience
@@ -185,6 +185,14 @@ The official machine-readable database of the RISC-V ISA specification, maintain
 
 | PR | What it did | Merged |
 |:--|:--|:--|
+| [#547](https://github.com/openMF/mcp-mifosx/pull/547) | Openfn: CURP vision analysis with Ollama, CURP clave as client externalId and vision note on the loan | Oct 2026 |
+| [#546](https://github.com/openMF/mcp-mifosx/pull/546) | Openfn: Ollama underwriting decision with guardrail and decision note on the Fineract loan | Oct 2026 |
+| [#545](https://github.com/openMF/mcp-mifosx/pull/545) | Openfn: replace simulated Fineract job with real client, loan and approve write-back | Oct 2026 |
+| [#544](https://github.com/openMF/mcp-mifosx/pull/544) | Openfn: add README for deploying OpenFn Lightning and building the gateway | Oct 2026 |
+| [#543](https://github.com/openMF/mcp-mifosx/pull/543) | Openfn: add .gitignore for build output and OpenFn CLI deploy artifacts | Oct 2026 |
+| [#542](https://github.com/openMF/mcp-mifosx/pull/542) | Openfn: read run id from Lightning x-meta-run-id webhook response header | Oct 2026 |
+| [#541](https://github.com/openMF/mcp-mifosx/pull/541) | Openfn: keep assessments in underwriting summary and reject callbacks without workflowId | Oct 2026 |
+| [#540](https://github.com/openMF/mcp-mifosx/pull/540) | Openfn: make gateway callback base URL configurable via OPENFN_GATEWAY_BASE_URL | Oct 2026 |
 | [#539](https://github.com/openMF/mcp-mifosx/pull/539) | Openfn: use language-http v7 post(url, body, options) signature in callback jobs | Oct 2026 |
 | [#538](https://github.com/openMF/mcp-mifosx/pull/538) | Openfn: pin gateway HTTP client to HTTP/1.1 to avoid h2c upgrade failure with Lightning | Oct 2026 |
 | [#537](https://github.com/openMF/mcp-mifosx/pull/537) | Openfn: add source_trigger and target_job to webhook edges in project.yaml | Oct 2026 |
