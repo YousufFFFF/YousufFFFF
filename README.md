@@ -13,7 +13,7 @@
 
 ---
 
-Software developer with **91 merged pull requests** in production open-source codebases — Apache Superset, Kubernetes SIGs, RISC-V International and the Mifos Initiative. I recently **completed the Mifos Summer of Code (MSOC) 2026 internship**, where I shipped the loan product creation experience for a fintech platform used by microfinance institutions in 40+ countries.
+Software developer with **92 merged pull requests** in production open-source codebases — Apache Superset, Kubernetes SIGs, RISC-V International and the Mifos Initiative. I recently **completed the Mifos Summer of Code (MSOC) 2026 internship**, where I shipped the loan product creation experience for a fintech platform used by microfinance institutions in 40+ countries.
 
 I work mainly in **TypeScript and Angular** on the frontend, with backend work in **Java / Spring Boot** and a data background from production analytics.
 
@@ -23,7 +23,7 @@ I work mainly in **TypeScript and Angular** on the frontend, with backend work i
 | Highlight | Details |
 |:--|:--|
 | **Software Intern, Mifos Initiative** | MSOC 2026, completed · delivered the UI Product Templates project for a fintech platform used in 40+ countries, including **13 loan product templates** · [PRs](#mifos-x-web-app) |
-| **91 merged pull requests** | Across four open-source organizations · [view all](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
+| **92 merged pull requests** | Across four open-source organizations · [view all](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
 | **Mifos X Tenant Management Plugin** | Java / Spring Boot plugin for Apache Fineract — security, tenant provisioning and lifecycle · [PRs](#mifos-x-tenant-management-plugin) |
 | **Apache Superset** · 75K ★ | Fixes in the ECharts & deck.gl rendering internals, shipped in `v6.0` · [PRs](#apache-superset) |
 | **Kubernetes SIGs** · Headlamp 7K ★ | Merged into the CNCF web UI for managing Kubernetes clusters · [PRs](#headlamp-kubernetes-sigs) |
@@ -40,7 +40,7 @@ I work mainly in **TypeScript and Angular** on the frontend, with backend work i
 - Designed hidden-defaults payload logic so products submit valid API payloads without exposing every field to the user
 - Delivered a library of **13 loan product templates** — BNPL, gold, auto, JLG, home, mortgage, consumer durable and more
 - Added white-label tenant theming end to end: web UI plus the Fineract backend endpoints behind it
-- **61 merged PRs** across the Mifos web app and Fineract plugins; still contributing after the internship (tenant management UI and plugin)
+- **62 merged PRs** across the Mifos web app and Fineract plugins; still contributing after the internship (tenant management UI and plugin)
 
 **Open-Source Contributor — Apache Superset**<br/>
 <sub>Nov 2025 – present · TypeScript, React, ECharts, deck.gl</sub>
@@ -69,20 +69,21 @@ I work mainly in **TypeScript and Angular** on the frontend, with backend work i
 
 | PR | What it did | Merged |
 |:--|:--|:--|
+| [#4093](https://github.com/openMF/web-app/pull/4093) | **WEB-1297** — Show distinct login failed and session expired messages | Oct 2026 |
 | [#4047](https://github.com/openMF/web-app/pull/4047) | **WEB-1269** — Fix remaining translation defects missed by WEB-1266 | Sep 2026 |
 | [#4041](https://github.com/openMF/web-app/pull/4041) | **WEB-1266** — Fix translation defects across all 13 locale catalogues | Sep 2026 |
 | [#4036](https://github.com/openMF/web-app/pull/4036) | **WEB-1252** — Add tenant creation, editing and lifecycle actions | Sep 2026 |
 | [#4035](https://github.com/openMF/web-app/pull/4035) | **WEB-1242** — Add the tenant management administration UI | Sep 2026 |
 | [#4025](https://github.com/openMF/web-app/pull/4025) | **WEB-1248** — Keep typed decimals in the loan application principal | Sep 2026 |
 | [#4012](https://github.com/openMF/web-app/pull/4012) | **WEB-1246** — Keep the operator on their step and show per-step status in the guided wizard | Sep 2026 |
-| [#4011](https://github.com/openMF/web-app/pull/4011) | **WEB-1245** — Allow decimal nominal interest rate when creating a loan account | Sep 2026 |
 
 <details>
-<summary>Show 54 more Mifos PRs</summary>
+<summary>Show 55 more Mifos PRs</summary>
 <br/>
 
 | PR | What it did | Merged |
 |:--|:--|:--|
+| [#4011](https://github.com/openMF/web-app/pull/4011) | **WEB-1245** — Allow decimal nominal interest rate when creating a loan account | Sep 2026 |
 | [#3998](https://github.com/openMF/web-app/pull/3998) | **WEB-1241** — Add guarantors as a tab under the loan account box | Sep 2026 |
 | [#3994](https://github.com/openMF/web-app/pull/3994) | **WEB-1239** — Render the Eclipse BIRT report preview | Sep 2026 |
 | [#3992](https://github.com/openMF/web-app/pull/3992) | **WEB-1237** — Restore guarantor management on loan accounts | Sep 2026 |
