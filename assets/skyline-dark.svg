@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 676" width="980" height="676" role="img" aria-label="310 contributions in the last year, shown as a 3D skyline" font-family="-apple-system,BlinkMacSystemFont,&#x27;Segoe UI&#x27;,Helvetica,Arial,sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 676" width="980" height="676" role="img" aria-label="312 contributions in the last year, shown as a 3D skyline" font-family="-apple-system,BlinkMacSystemFont,&#x27;Segoe UI&#x27;,Helvetica,Arial,sans-serif">
 <rect x=".5" y=".5" width="979" height="675" rx="12" fill="#0d1117" stroke="#30363d"/>
-<text x="20" y="40" font-size="15" fill="#e6edf3"><tspan font-weight="600">310</tspan> contributions in the last year</text>
+<text x="20" y="40" font-size="15" fill="#e6edf3"><tspan font-weight="600">312</tspan> contributions in the last year</text>
 <rect x="20.5" y="64.5" width="939" height="590.6" rx="8" fill="none" stroke="#30363d"/>
 <g stroke-linejoin="round">
 <polygon points="163.4,113.4 176.2,120.5 176.2,117.2 163.4,110.1" fill="#1f2328"/>
@@ -1098,9 +1098,9 @@
 <polygon points="799.6,548.2 812.3,555.3 812.3,552.0 799.6,544.9" fill="#1f2328"/>
 <polygon points="825.0,548.2 812.3,555.3 812.3,552.0 825.0,544.9" fill="#191c20"/>
 <polygon points="812.3,537.7 825.0,544.9 812.3,552.0 799.6,544.9" fill="#25292f"/>
-<polygon points="842.0,556.1 854.7,563.2 854.7,559.9 842.0,552.8" fill="#1f2328"/>
-<polygon points="867.5,556.1 854.7,563.2 854.7,559.9 867.5,552.8" fill="#191c20"/>
-<polygon points="854.7,545.6 867.5,552.8 854.7,559.9 842.0,552.8" fill="#25292f"/>
+<polygon points="842.0,556.1 854.7,563.2 854.7,537.2 842.0,530.1" fill="#005c2a"><animate attributeName="points" dur="1.8s" fill="freeze" calcMode="spline" values="842.0,556.1 854.7,563.2 854.7,563.2 842.0,556.1;842.0,556.1 854.7,563.2 854.7,563.2 842.0,556.1;842.0,556.1 854.7,563.2 854.7,537.2 842.0,530.1;842.0,556.1 854.7,563.2 854.7,537.2 842.0,530.1" keyTimes="0;0.400;0.980;1" keySplines="0 0 1 1;.33 1 .68 1;0 0 1 1"/></polygon>
+<polygon points="867.5,556.1 854.7,563.2 854.7,537.2 867.5,530.1" fill="#004a22"><animate attributeName="points" dur="1.8s" fill="freeze" calcMode="spline" values="867.5,556.1 854.7,563.2 854.7,563.2 867.5,556.1;867.5,556.1 854.7,563.2 854.7,563.2 867.5,556.1;867.5,556.1 854.7,563.2 854.7,537.2 867.5,530.1;867.5,556.1 854.7,563.2 854.7,537.2 867.5,530.1" keyTimes="0;0.400;0.980;1" keySplines="0 0 1 1;.33 1 .68 1;0 0 1 1"/></polygon>
+<polygon points="854.7,523.0 867.5,530.1 854.7,537.2 842.0,530.1" fill="#006d32"><animate attributeName="points" dur="1.8s" fill="freeze" calcMode="spline" values="854.7,549.0 867.5,556.1 854.7,563.2 842.0,556.1;854.7,549.0 867.5,556.1 854.7,563.2 842.0,556.1;854.7,523.0 867.5,530.1 854.7,537.2 842.0,530.1;854.7,523.0 867.5,530.1 854.7,537.2 842.0,530.1" keyTimes="0;0.400;0.980;1" keySplines="0 0 1 1;.33 1 .68 1;0 0 1 1"/></polygon>
 <polygon points="785.5,556.1 798.2,563.2 798.2,559.9 785.5,552.8" fill="#1f2328"/>
 <polygon points="810.9,556.1 798.2,563.2 798.2,559.9 810.9,552.8" fill="#191c20"/>
 <polygon points="798.2,545.6 810.9,552.8 798.2,559.9 785.5,552.8" fill="#25292f"/>
@@ -1124,10 +1124,10 @@
 <text x="673.8" y="510.2" font-size="10" fill="#8b949e">Aug</text>
 <text x="744.5" y="549.7" font-size="10" fill="#8b949e">Sep</text>
 <text x="801.0" y="581.3" font-size="10" fill="#8b949e">Oct</text>
-<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.99s" dur=".6s" fill="freeze"/><text x="940.0" y="96.0" font-size="13" fill="#8b949e" text-anchor="end">1 year total</text><text x="940.0" y="146.5" text-anchor="end"><tspan font-size="53" font-weight="600" fill="#39d353" letter-spacing="-1">310</tspan><tspan font-size="15" fill="#e6edf3" dx="6">contributions</tspan></text><text x="940.0" y="169.0" font-size="12" fill="#8b949e" text-anchor="end">Oct 12, 2025 — Oct 15, 2026</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.99s" dur=".6s" fill="freeze"/><text x="940.0" y="96.0" font-size="13" fill="#8b949e" text-anchor="end">1 year total</text><text x="940.0" y="146.5" text-anchor="end"><tspan font-size="53" font-weight="600" fill="#39d353" letter-spacing="-1">312</tspan><tspan font-size="15" fill="#e6edf3" dx="6">contributions</tspan></text><text x="940.0" y="169.0" font-size="12" fill="#8b949e" text-anchor="end">Oct 12, 2025 — Oct 15, 2026</text></g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.08s" dur=".6s" fill="freeze"/><text x="940.0" y="200.0" font-size="13" fill="#8b949e" text-anchor="end">Busiest day</text><text x="940.0" y="250.5" text-anchor="end"><tspan font-size="53" font-weight="600" fill="#39d353" letter-spacing="-1">17</tspan><tspan font-size="15" fill="#e6edf3" dx="6">contributions</tspan></text><text x="940.0" y="273.0" font-size="12" fill="#8b949e" text-anchor="end">Jul 31</text></g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.17s" dur=".6s" fill="freeze"/><text x="40.0" y="425.6" font-size="13" fill="#8b949e" text-anchor="start">Longest streak</text><text x="40.0" y="476.1" text-anchor="start"><tspan font-size="53" font-weight="600" fill="#39d353" letter-spacing="-1">12</tspan><tspan font-size="15" fill="#e6edf3" dx="6">days</tspan></text><text x="40.0" y="498.6" font-size="12" fill="#8b949e" text-anchor="start">Aug 13 — Aug 24</text></g>
-<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.26s" dur=".6s" fill="freeze"/><text x="40.0" y="529.6" font-size="13" fill="#8b949e" text-anchor="start">Current streak</text><text x="40.0" y="580.1" text-anchor="start"><tspan font-size="53" font-weight="600" fill="#39d353" letter-spacing="-1">0</tspan><tspan font-size="15" fill="#e6edf3" dx="6">days</tspan></text><text x="40.0" y="602.6" font-size="12" fill="#8b949e" text-anchor="start">—</text></g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.26s" dur=".6s" fill="freeze"/><text x="40.0" y="529.6" font-size="13" fill="#8b949e" text-anchor="start">Current streak</text><text x="40.0" y="580.1" text-anchor="start"><tspan font-size="53" font-weight="600" fill="#39d353" letter-spacing="-1">1</tspan><tspan font-size="15" fill="#e6edf3" dx="6">day</tspan></text><text x="40.0" y="602.6" font-size="12" fill="#8b949e" text-anchor="start">Oct 15 — Oct 15</text></g>
 <text x="36" y="645.6" font-size="12" fill="#8b949e">Updated daily from github.com/YousufFFFF</text>
 <text x="914" y="645.6" font-size="12" fill="#8b949e" text-anchor="start">More</text>
 <rect x="899" y="635.6" width="11" height="11" rx="2" fill="#39d353"/>
