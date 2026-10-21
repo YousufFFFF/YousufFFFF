@@ -13,7 +13,7 @@
 
 ---
 
-Software developer with **106 merged pull requests** in production open-source codebases — Apache Superset, Kubernetes SIGs, RISC-V International and the Mifos Initiative. I recently **completed the Mifos Summer of Code (MSOC) 2026 internship**, where I shipped the loan product creation experience for a fintech platform used by microfinance institutions in 40+ countries.
+Software developer with **107 merged pull requests** in production open-source codebases — Apache Superset, Kubernetes SIGs, RISC-V International and the Mifos Initiative. I recently **completed the Mifos Summer of Code (MSOC) 2026 internship**, where I shipped the loan product creation experience for a fintech platform used by microfinance institutions in 40+ countries.
 
 I work mainly in **TypeScript and Angular** on the frontend, with backend work in **Java / Spring Boot** and a data background from production analytics.
 
@@ -23,12 +23,12 @@ I work mainly in **TypeScript and Angular** on the frontend, with backend work i
 | Highlight | Details |
 |:--|:--|
 | **Software Intern, Mifos Initiative** | MSOC 2026, completed · delivered the UI Product Templates project for a fintech platform used in 40+ countries, including **13 loan product templates** · [PRs](#mifos-x-web-app) |
-| **106 merged pull requests** | Across four open-source organizations · [view all](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
+| **107 merged pull requests** | Across four open-source organizations · [view all](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
 | **Mifos X Tenant Management Plugin** | Java / Spring Boot plugin for Apache Fineract — security, tenant provisioning and lifecycle · [PRs](#mifos-x-tenant-management-plugin) |
 | **Apache Superset** · 75K ★ | Fixes in the ECharts & deck.gl rendering internals, shipped in `v6.0` · [PRs](#apache-superset) |
 | **Kubernetes SIGs** · Headlamp 7K ★ | Merged into the CNCF web UI for managing Kubernetes clusters · [PRs](#headlamp-kubernetes-sigs) |
 | **RISC-V International** | Merged into the official machine-readable ISA specification database · [PRs](#risc-v-unified-database) |
-| **Mcp Mifosx** | 25 merged PRs · [PRs](#mcp-mifosx) |
+| **Mcp Mifosx** | 26 merged PRs · [PRs](#mcp-mifosx) |
 <!-- AUTO:SUMMARY:END -->
 
 ## Experience
@@ -188,6 +188,7 @@ The official machine-readable database of the RISC-V ISA specification, maintain
 
 | PR | What it did | Merged |
 |:--|:--|:--|
+| [#631](https://github.com/openMF/mcp-mifosx/pull/631) | Sandbox: LOS service for commercial opportunities | Oct 2026 |
 | [#627](https://github.com/openMF/mcp-mifosx/pull/627) | Sandbox: Pi agent image with its own MCP server per agent | Oct 2026 |
 | [#626](https://github.com/openMF/mcp-mifosx/pull/626) | Python: build the MCP server image on Python 3.15 | Oct 2026 |
 | [#624](https://github.com/openMF/mcp-mifosx/pull/624) | Openfn: retry gateway callbacks and fail cases stuck on OpenFn | Oct 2026 |
