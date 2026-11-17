@@ -13,7 +13,7 @@
 
 ---
 
-Software developer with **127 merged pull requests** in production open-source codebases — Apache Superset, Kubernetes SIGs, RISC-V International and the Mifos Initiative. I recently **completed the Mifos Summer of Code (MSOC) 2026 internship**, where I shipped the loan product creation experience for a fintech platform used by microfinance institutions in 40+ countries.
+Software developer with **129 merged pull requests** in production open-source codebases — Apache Superset, Kubernetes SIGs, RISC-V International and the Mifos Initiative. I recently **completed the Mifos Summer of Code (MSOC) 2026 internship**, where I shipped the loan product creation experience for a fintech platform used by microfinance institutions in 40+ countries.
 
 I work mainly in **TypeScript and Angular** on the frontend, with backend work in **Java / Spring Boot** and a data background from production analytics.
 
@@ -23,12 +23,12 @@ I work mainly in **TypeScript and Angular** on the frontend, with backend work i
 | Highlight | Details |
 |:--|:--|
 | **Software Intern, Mifos Initiative** | MSOC 2026, completed · delivered the UI Product Templates project for a fintech platform used in 40+ countries, including **13 loan product templates** · [PRs](#mifos-x-web-app) |
-| **127 merged pull requests** | Across five open-source organizations · [view all](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
+| **129 merged pull requests** | Across five open-source organizations · [view all](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
 | **Mifos X Tenant Management Plugin** | Java / Spring Boot plugin for Apache Fineract — security, tenant provisioning and lifecycle · [PRs](#mifos-x-tenant-management-plugin) |
 | **Apache Superset** · 76K ★ | Fixes in the ECharts & deck.gl rendering internals, shipped in `v6.0` · [PRs](#apache-superset) |
 | **Kubernetes SIGs** · Headlamp 8K ★ | Merged into the CNCF web UI for managing Kubernetes clusters · [PRs](#headlamp-kubernetes-sigs) |
 | **RISC-V International** | Merged into the official machine-readable ISA specification database · [PRs](#risc-v-unified-database) |
-| **Mcp Mifosx** | 42 merged PRs · [PRs](#mcp-mifosx) |
+| **Mcp Mifosx** | 43 merged PRs · [PRs](#mcp-mifosx) |
 | **Mifos X Web App React** | 1 merged PR · [PRs](#mifos-x-web-app-react) |
 | **Online Banking** | 1 merged PR · [PRs](#online-banking) |
 | **Zowe Explorer Vscode** | 1 merged PR · [PRs](#zowe-explorer-vscode) |
@@ -43,7 +43,7 @@ I work mainly in **TypeScript and Angular** on the frontend, with backend work i
 - Designed hidden-defaults payload logic so products submit valid API payloads without exposing every field to the user
 - Delivered a library of **13 loan product templates** — BNPL, gold, auto, JLG, home, mortgage, consumer durable and more
 - Added white-label tenant theming end to end: web UI plus the Fineract backend endpoints behind it
-- **63 merged PRs** across the Mifos web app and Fineract plugins; still contributing after the internship (tenant management UI and plugin)
+- **64 merged PRs** across the Mifos web app and Fineract plugins; still contributing after the internship (tenant management UI and plugin)
 
 **Open-Source Contributor — Apache Superset**<br/>
 <sub>Nov 2025 – present · TypeScript, React, ECharts, deck.gl</sub>
@@ -72,20 +72,21 @@ I work mainly in **TypeScript and Angular** on the frontend, with backend work i
 
 | PR | What it did | Merged |
 |:--|:--|:--|
+| [#4295](https://github.com/openMF/web-app/pull/4295) | **WEB-1446** — Redesign backend info footer as a status bar with a System information panel | Nov 2026 |
 | [#4163](https://github.com/openMF/web-app/pull/4163) | **WEB-1307** — Enable the Data Table edit button for stored old dates, zeros and No values | Oct 2026 |
 | [#4093](https://github.com/openMF/web-app/pull/4093) | **WEB-1297** — Show distinct login failed and session expired messages | Oct 2026 |
 | [#4047](https://github.com/openMF/web-app/pull/4047) | **WEB-1269** — Fix remaining translation defects missed by WEB-1266 | Sep 2026 |
 | [#4041](https://github.com/openMF/web-app/pull/4041) | **WEB-1266** — Fix translation defects across all 13 locale catalogues | Sep 2026 |
 | [#4036](https://github.com/openMF/web-app/pull/4036) | **WEB-1252** — Add tenant creation, editing and lifecycle actions | Sep 2026 |
 | [#4035](https://github.com/openMF/web-app/pull/4035) | **WEB-1242** — Add the tenant management administration UI | Sep 2026 |
-| [#4025](https://github.com/openMF/web-app/pull/4025) | **WEB-1248** — Keep typed decimals in the loan application principal | Sep 2026 |
 
 <details>
-<summary>Show 56 more Mifos PRs</summary>
+<summary>Show 57 more Mifos PRs</summary>
 <br/>
 
 | PR | What it did | Merged |
 |:--|:--|:--|
+| [#4025](https://github.com/openMF/web-app/pull/4025) | **WEB-1248** — Keep typed decimals in the loan application principal | Sep 2026 |
 | [#4012](https://github.com/openMF/web-app/pull/4012) | **WEB-1246** — Keep the operator on their step and show per-step status in the guided wizard | Sep 2026 |
 | [#4011](https://github.com/openMF/web-app/pull/4011) | **WEB-1245** — Allow decimal nominal interest rate when creating a loan account | Sep 2026 |
 | [#3998](https://github.com/openMF/web-app/pull/3998) | **WEB-1241** — Add guarantors as a tab under the loan account box | Sep 2026 |
@@ -192,6 +193,7 @@ The official machine-readable database of the RISC-V ISA specification, maintain
 
 | PR | What it did | Merged |
 |:--|:--|:--|
+| [#696](https://github.com/openMF/mcp-mifosx/pull/696) | Sandbox: assess opportunities, rules propose and a person confirms | Nov 2026 |
 | [#695](https://github.com/openMF/mcp-mifosx/pull/695) | Sandbox: build the OpenFn adaptors into the worker, no route out | Nov 2026 |
 | [#693](https://github.com/openMF/mcp-mifosx/pull/693) | Sandbox: register qualified opportunities in Fineract | Nov 2026 |
 | [#692](https://github.com/openMF/mcp-mifosx/pull/692) | Sandbox: give the loan flow's vision step the time a CPU needs | Nov 2026 |
