@@ -13,7 +13,7 @@
 
 ---
 
-Software developer with **132 merged pull requests** in production open-source codebases — Apache Superset, Kubernetes SIGs, RISC-V International and the Mifos Initiative. I recently **completed the Mifos Summer of Code (MSOC) 2026 internship**, where I shipped the loan product creation experience for a fintech platform used by microfinance institutions in 40+ countries.
+Software developer with **133 merged pull requests** in production open-source codebases — Apache Superset, Kubernetes SIGs, RISC-V International and the Mifos Initiative. I recently **completed the Mifos Summer of Code (MSOC) 2026 internship**, where I shipped the loan product creation experience for a fintech platform used by microfinance institutions in 40+ countries.
 
 I work mainly in **TypeScript and Angular** on the frontend, with backend work in **Java / Spring Boot** and a data background from production analytics.
 
@@ -23,14 +23,14 @@ I work mainly in **TypeScript and Angular** on the frontend, with backend work i
 | Highlight | Details |
 |:--|:--|
 | **Software Intern, Mifos Initiative** | MSOC 2026, completed · delivered the UI Product Templates project for a fintech platform used in 40+ countries, including **13 loan product templates** · [PRs](#mifos-x-web-app) |
-| **132 merged pull requests** | Across five open-source organizations · [view all](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
+| **133 merged pull requests** | Across five open-source organizations · [view all](https://github.com/search?q=author%3AYousufFFFF+type%3Apr+is%3Amerged&type=pullrequests) |
 | **Mifos X Tenant Management Plugin** | Java / Spring Boot plugin for Apache Fineract — security, tenant provisioning and lifecycle · [PRs](#mifos-x-tenant-management-plugin) |
 | **Apache Superset** · 76K ★ | Fixes in the ECharts & deck.gl rendering internals, shipped in `v6.0` · [PRs](#apache-superset) |
 | **Kubernetes SIGs** · Headlamp 8K ★ | Merged into the CNCF web UI for managing Kubernetes clusters · [PRs](#headlamp-kubernetes-sigs) |
 | **RISC-V International** | Merged into the official machine-readable ISA specification database · [PRs](#risc-v-unified-database) |
 | **Mcp Mifosx** | 46 merged PRs · [PRs](#mcp-mifosx) |
 | **Mifos X Web App React** | 1 merged PR · [PRs](#mifos-x-web-app-react) |
-| **Online Banking** | 1 merged PR · [PRs](#online-banking) |
+| **Online Banking** | 2 merged PRs · [PRs](#online-banking) |
 | **Zowe Explorer Vscode** | 1 merged PR · [PRs](#zowe-explorer-vscode) |
 <!-- AUTO:SUMMARY:END -->
 
@@ -250,6 +250,7 @@ The official machine-readable database of the RISC-V ISA specification, maintain
 
 | PR | What it did | Merged |
 |:--|:--|:--|
+| [#72](https://github.com/openMF/online-banking/pull/72) | Feat: view savings account details and transactions (MX-467) | Nov 2026 |
 | [#57](https://github.com/openMF/online-banking/pull/57) | Feat: list my savings accounts (MX-466) | Nov 2026 |
 
 ### Zowe Explorer Vscode
